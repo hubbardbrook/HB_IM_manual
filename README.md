@@ -1,1 +1,0 @@
-# HB_IM_manual
