@@ -20,9 +20,8 @@ book:
     - ReportingScripts.qmd
     - Templates.qmd
     - UNH_computer_support.qmd
-    - references.qmd
   sidebar:
-    logo: 'images/HBESlogo.png'
+    logo: 'HBESlogo.png'
 
 
 bibliography: references.bib
