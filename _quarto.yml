@@ -24,7 +24,6 @@ book:
     logo: 'HBESlogo.png'
 
 
-bibliography: references.bib
 
 format:
   html:
