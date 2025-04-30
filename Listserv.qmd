@@ -1,3 +1,73 @@
-# Listserv
+# **Hubbard Brook Listservs** 
 
-Current listserv to be discontinued. Detailed document exists on pro/con of alternates.
+### Establishment, configuration, and status  
+
+Updated: April 30, 2025  
+
+In the early 2010’s COS members requested the establishment of listserv(s) for the Hubbard Brook Community. These notes describe the configuration of the lists. 
+
+### The Lists 
+
+Three primary lists were established in 2014. 
+
+-   HubbardBrook – a general list comprising HB investigators, grad students, techs, and those generally interested in HB work 
+
+<!-- -->
+
+-   HubbardBrookCOS – all members of the COS 
+
+<!-- -->
+
+-   HubbardBrookGrads – all graduate students/postdocs, SCC chairs, LTER leadPIs, HBR IM 
+
+<!-- -->
+
+-   Several project-level lists have been established – for instance,  for the  Ice Storm Team  
+
+Membership 
+
+-   Control of list members is by the admin – no self-addition to the list (that opens up a world of spam). Only members can post to lists. If a non-member posts, it is sent to admin for approval and release. 
+
+<!-- -->
+
+-   Addition of list members is by request to the list admin.  
+
+<!-- -->
+
+-   The general list contains everyone and there has been no removal (or very little) as folks have moved on from HB 
+
+<!-- -->
+
+-   Grads are kept up-to-date with additions/removals on both the general and grad list. 
+
+<!-- -->
+
+-   IM reaches out to COS several times a year to review grad list and provide updates. 
+
+<!-- -->
+
+-   SCC informs the admin of new members when they are voted in to COS.  
+
+<!-- -->
+
+-   Some requests for addition come from undergrads, and admin has been adding notation of ‘undergrad’ and ‘year’, so that these can be removed periodically. 
+
+### Use patterns 
+
+In general, the lists have been used for announcements and there has been very little 2-way communication. Initially, this type of list was chosen, since 2-way communication was a requirement in the request from COS to establish lists. Is this something we still need.... 
+
+### Listserv platforms
+
+The lists were established and managed by the HBR IM on the mailman listserv platform hosted at UNH-RCC: https://list.org/  <https://lists.sr.unh.edu/mailman/listinfo> Tech support has been provided by Mark Maciolek of UNH Research Computing Center. Hubbard Brook used this until 2025 until the service was no longer available at UNH. See below for current status
+
+### The Future of Lists 
+
+In 2024, a decision was made at UNH to discontinue the mailman list service and all those with lists were asked to migrate to a new system. 
+
+Transitioning to Hubbard Brook Lists 2.0 
+
+UNH RCC is recommending that those with lists transistion to UNH Outlook distribution lists. The lists were migrated to Outlook and this is not ideal - due to an issue with DMARC security configuration, some recipient institutions reject messages. This is not an issue if messages are sent from a UNH address. This has limited the functionality of the list for two-way conversations. This is a configuration that would need to be changed at a high UNH IT level. A ticket has been submitted, but no response after several months.
+
+Other options have been investigated - using google groups through the HBRF workspace. The limitation here is that the address is either hubbardbrookfoundation.org or googlegroups.com, neither is ideal. Although googlegroups does not require a google account, there can be some resistance to this. Using the HBRF domain is not ideal as they manage a number of different mailing lists/services and there is already some confusion between list and other mailings.
+
+For now, it is UNH Outlook with its limitations. There is some possibility of a UNH revival of the Mailman service which would be idea, as that worked well for a decade.

@@ -31,9 +31,9 @@ The steps are as follows:
     -   Note that commonly used chunks of metadata can be briefly described to IM without detail, such as author details, geographic locations, taxonomy. These will be pulled from the template.
 -   Components for data packages are provided to the IM through a sharepoint dropoff.
 -   ezEML collaboration is established if desired for the dataset.
--   A data package is initiated in ezEML 
-    - naming convention of hbr\[pkgid\]-\[shortname\]
-    - use document/new or document/new from template
+-   A data package is initiated in ezEML
+    -   naming convention of hbr\[pkgid\]-\[shortname\]
+    -   use document/new or document/new from template
 -   The HBR Master Template (stored in EDI) is used to import people, geographic areas, keywords, projects, and funding. Add items to the template if they are likely to be used in the future. One-off items can be added directly to this new dataset.
 -   Data tables are loaded from csv.
 -   Data table attributes are documented either directly on the online forms or through the ezEML table entity templating feature (a great timesaver for complex datatables).

@@ -2,8 +2,7 @@
 
 ## Publication Status
 
-This section will describe the reporting we do on publications and link to GitHub repo with scripts as well as current versions of output
-
+This section will describe the reporting we do on publications and link to GitHub repo with scripts as well as current versions of output. Full chapter content pending.
 
 ## Data Status
 
@@ -13,7 +12,11 @@ Scripts are available to generate an automated table of datasets in EDI. The bas
 
 ### Status of All data
 
-This status report is derived from our Data Inventory. A script produces an output table that removes some of the columns in the table that are for day-to-day IM data management. 
+This status report is derived from our Data Inventory. A script produces an output table that removes some of the columns in the table that are for day-to-day IM data management.
+
+### Data access reports
+
+A series of reports are generated through EDIutils to show datasets in ranked order of downloads and a timeline of daily downloads. This report can be generated for all of Hubbard Brook, as well as for individual projects (CCASE, MELNHE, Bird, etc).
 
 ## GitHub Repository for scripts
 
