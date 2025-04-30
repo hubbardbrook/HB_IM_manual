@@ -274,7 +274,7 @@
     "href": "PublicationMgmt.html#zotero---step-by-step",
     "title": "5  Publication Management",
     "section": "5.2 Zotero - step-by-step",
-    "text": "5.2 Zotero - step-by-step\n\nBy using Zotero on the UNH network or via VPN, there is full access to publications through the UNH Library and those are saved with each citation.\npublications are identified through self-reporting to IM, google scholar searches, Hubbard Brook Monthly newsletters, and HBR LTER Annual Reports.\neach update period is managed in a dated folder in zotero\nby clicking zotero icon on pub landing page, it is ingested into Zotero (full citation plus accessible pdfs)\ntagging identifies ‘LTER’, ‘data-only’, and last_f tags for each HB author (the latter facilitates Zotpress links to each person’s profile on the website).\nonce tagged, the new pubs are copied to the HBR-LTER group folder.\nthe group folder is synced to the hubbardbrook Zotero cloud account. Syncing is set not to upload the pdfs, as this can violate copyright. Publications since ~2010 contain DOI links.\nan ongoing effort is underway (2025) to add DOIs to the citations. DOIs were issued beginning in 1997, but publishers have retroactively assigned DOIs to older publications.\nThis article was the motivation to capture digital articles. We do have paper copies at Pleasant View Farm from inception through 2000. https://www.nature.com/articles/d41586-024-03842-z",
+    "text": "5.2 Zotero - step-by-step\n\nBy using Zotero on the UNH network or via VPN, there is full access to (most) publications through the UNH Library and those are saved with each citation.\npublications are identified through self-reporting to IM, google scholar searches, Hubbard Brook Monthly newsletters, and HBR LTER Annual Reports.\neach update period is managed in a dated folder in zotero\nby clicking zotero icon on pub landing page, it is ingested into Zotero (full citation plus accessible pdfs)\ntagging identifies ‘LTER’, ‘data-only’, and last_firstinitial tags for each HB author (the latter facilitates Zotpress links to each person’s profile on the website).\nonce tagged, the new pubs are copied to the HBR-LTER group folder.\nthe group folder is synced to the hubbardbrook Zotero cloud account. Syncing is set not to upload the pdfs, as this can violate copyright. Publications since ~2010 contain DOI links.\nan ongoing effort is underway (2025) to add DOIs to the citations. DOIs were issued beginning in 1997, but publishers have retroactively assigned DOIs to older publications. For example, Leonard, R. E. (1961), Net precipitation in a northern hardwood forest, J. Geophys. Res., 66(8), 2417–2421, doi:10.1029/JZ066i008p02417.\nThis article was the motivation to capture digital articles. We do have paper copies at Pleasant View Farm from inception through 2000. By archiving digital copies, these older publications become more accessible to our research community - they can be provided by the HBR IM upon request. https://www.nature.com/articles/d41586-024-03842-z",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Publication Management</span>"
     ]
@@ -284,7 +284,7 @@
     "href": "PublicationMgmt.html#edi-publication-data-linkages",
     "title": "5  Publication Management",
     "section": "5.3 EDI publication-data linkages",
-    "text": "5.3 EDI publication-data linkages\nThe EDI repository facilitates the linking of publications with underlying data through the ‘add journal citation’ feature. For HBR we add all known linkages. The EDI team has a semiautomated process where they identify new data DOI’s in the literature and then they add the pubs to the datasets. This is not 100%, as some papers still slip up on proper data citation, or data publication lags paper publication. In this case, IM is on the lookout for instances where manual additions need to be made.",
+    "text": "5.3 EDI publication-data linkages\nThe EDI repository facilitates the linking of publications with underlying data through the ‘add journal citation’ feature. For HBR we add all known linkages. The EDI team has a semi-automated process where they identify new data DOI’s in the literature and then they add the pubs to the datasets. This is not 100%, as some papers still slip up on proper data citation, or data publication lags paper publication. In this case, IM is on the lookout for instances where manual additions need to be made. Carefully documenting the use of data in publications in this way provided important metrics on the value of our data.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Publication Management</span>"
     ]
@@ -294,7 +294,7 @@
     "href": "PublicationMgmt.html#zotpress",
     "title": "5  Publication Management",
     "section": "5.4 Zotpress",
-    "text": "5.4 Zotpress\nThis wordpress plugin on our website is linked to the cloud-based HB Zotero account and to displays publications on the people profile pages on website through tagging of last_f for each author on a publications.",
+    "text": "5.4 Zotpress\nThis wordpress plugin on our website is linked to the cloud-based HB Zotero account and to displays publications on the people profile pages on website through tagging of last_firstinitial for each author on a publications.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Publication Management</span>"
     ]
@@ -354,7 +354,7 @@
     "href": "VoucherSamples.html",
     "title": "7  Voucher Specimens",
     "section": "",
-    "text": "7.1 Overview",
+    "text": "7.1 Under construction",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Voucher Specimens</span>"
     ]
@@ -372,11 +372,11 @@
   {
     "objectID": "Listserv.html",
     "href": "Listserv.html",
-    "title": "9  Listserv",
+    "title": "9  Hubbard Brook Listservs",
     "section": "",
-    "text": "Current listserv to be discontinued. Detailed document exists on pro/con of alternates.",
+    "text": "9.0.1 Establishment, configuration, and status  \nUpdated: April 30, 2025  \nIn the early 2010’s COS members requested the establishment of listserv(s) for the Hubbard Brook Community. These notes describe the configuration of the lists. \n\n\n9.0.2 The Lists \nThree primary lists were established in 2014. \n\nHubbardBrook – a general list comprising HB investigators, grad students, techs, and those generally interested in HB work \n\n\n\nHubbardBrookCOS – all members of the COS \n\n\n\nHubbardBrookGrads – all graduate students/postdocs, SCC chairs, LTER leadPIs, HBR IM \n\n\n\nSeveral project-level lists have been established – for instance,  for the  Ice Storm Team  \n\nMembership \n\nControl of list members is by the admin – no self-addition to the list (that opens up a world of spam). Only members can post to lists. If a non-member posts, it is sent to admin for approval and release. \n\n\n\nAddition of list members is by request to the list admin.  \n\n\n\nThe general list contains everyone and there has been no removal (or very little) as folks have moved on from HB \n\n\n\nGrads are kept up-to-date with additions/removals on both the general and grad list. \n\n\n\nIM reaches out to COS several times a year to review grad list and provide updates. \n\n\n\nSCC informs the admin of new members when they are voted in to COS.  \n\n\n\nSome requests for addition come from undergrads, and admin has been adding notation of ‘undergrad’ and ‘year’, so that these can be removed periodically. \n\n\n\n9.0.3 Use patterns \nIn general, the lists have been used for announcements and there has been very little 2-way communication. Initially, this type of list was chosen, since 2-way communication was a requirement in the request from COS to establish lists. Is this something we still need…. \n\n\n9.0.4 Listserv platforms\nThe lists were established and managed by the HBR IM on the mailman listserv platform hosted at UNH-RCC: https://list.org/  https://lists.sr.unh.edu/mailman/listinfo Tech support has been provided by Mark Maciolek of UNH Research Computing Center. Hubbard Brook used this until 2025 until the service was no longer available at UNH. See below for current status\n\n\n9.0.5 The Future of Lists \nIn 2024, a decision was made at UNH to discontinue the mailman list service and all those with lists were asked to migrate to a new system. \nTransitioning to Hubbard Brook Lists 2.0 \nUNH RCC is recommending that those with lists transistion to UNH Outlook distribution lists. The lists were migrated to Outlook and this is not ideal - due to an issue with DMARC security configuration, some recipient institutions reject messages. This is not an issue if messages are sent from a UNH address. This has limited the functionality of the list for two-way conversations. This is a configuration that would need to be changed at a high UNH IT level. A ticket has been submitted, but no response after several months.\nOther options have been investigated - using google groups through the HBRF workspace. The limitation here is that the address is either hubbardbrookfoundation.org or googlegroups.com, neither is ideal. Although googlegroups does not require a google account, there can be some resistance to this. Using the HBRF domain is not ideal as they manage a number of different mailing lists/services and there is already some confusion between list and other mailings.\nFor now, it is UNH Outlook with its limitations. There is some possibility of a UNH revival of the Mailman service which would be idea, as that worked well for a decade.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Listserv</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>**Hubbard Brook Listservs**</span>"
     ]
   },
   {
@@ -394,7 +394,7 @@
     "href": "OnlineBook.html",
     "title": "11  Online Book",
     "section": "",
-    "text": "11.1 Managing chapter content\nDescribe how the chapters are configured in Wordpress, how updates are made.",
+    "text": "11.1 Managing chapter content\nThis document is managed elsewhere - migration to this quarto site is pending\nDescribe how the chapters are configured in Wordpress, how updates are made.",
     "crumbs": [
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Online Book</span>"
     ]
@@ -454,7 +454,7 @@
     "href": "ReportingScripts.html",
     "title": "13  Reporting scripts",
     "section": "",
-    "text": "13.1 Publication Status\nThis section will describe the reporting we do on publications and link to GitHub repo with scripts as well as current versions of output",
+    "text": "13.1 Publication Status\nThis section will describe the reporting we do on publications and link to GitHub repo with scripts as well as current versions of output. Full chapter content pending.",
     "crumbs": [
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Reporting scripts</span>"
     ]
@@ -464,7 +464,7 @@
     "href": "ReportingScripts.html#data-status",
     "title": "13  Reporting scripts",
     "section": "13.2 Data Status",
-    "text": "13.2 Data Status\n\n13.2.1 Status of data in EDI\nScripts are available to generate an automated table of datasets in EDI. The basic configuration is that of the supplemental table required in LTER renewals. Modifications can easily be made for other purposes/formats.\n\n\n13.2.2 Status of All data\nThis status report is derived from our Data Inventory. A script produces an output table that removes some of the columns in the table that are for day-to-day IM data management.",
+    "text": "13.2 Data Status\n\n13.2.1 Status of data in EDI\nScripts are available to generate an automated table of datasets in EDI. The basic configuration is that of the supplemental table required in LTER renewals. Modifications can easily be made for other purposes/formats.\n\n\n13.2.2 Status of All data\nThis status report is derived from our Data Inventory. A script produces an output table that removes some of the columns in the table that are for day-to-day IM data management.\n\n\n13.2.3 Data access reports\nA series of reports are generated through EDIutils to show datasets in ranked order of downloads and a timeline of daily downloads. This report can be generated for all of Hubbard Brook, as well as for individual projects (CCASE, MELNHE, Bird, etc).",
     "crumbs": [
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Reporting scripts</span>"
     ]
