@@ -118,7 +118,7 @@ A number of accounts require access for HBR Information Management. In some case
 =======
 A number of accounts require access for HBR Information Management. In some cases, access can be granted through the UNH Research Computing Center (RCC), and in other cloud-based accounts the IM has designated a co-administrator individual (currently a UNH Colleague on the HB Science Coord Com\] .
 
--   IM desktop and server \[IM/RCC\]
+-   IM desktop and server \[IM/RChow do C\]
 -   UNH HB sharepoint \[IM/UNHcoAdmin\]
 -   Zotero \[IM/UNHcoAdmin\]
 -   Databases \[IM/RCC\]
