@@ -74,17 +74,6 @@ Table 1 outlines software in use by HBR-IM to manage data package development an
 
 Table 1. Features of HBR Information Management System
 
-<<<<<<< HEAD
-| **Feature**                                                    | **Details, software, resources**                                         |
-|-------------------------------------|-----------------------------------|
-| Website: [https://hubbardbrook.org](https://hubbardbrook.org/) | WordPress, html, css, php, xslt, javascript, apache, piwigo              |
-| Bibliography                                                   | Zotero, Zotpress wordpress plugin                                        |
-| Data Catalog                                                   | EDI data repository, local WordPress gateway to EDI HBR data, EDIutils R |
-| Metadata                                                       | ezEML, PostgreSQL, EML R package, EML2.1                                 |
-| Computer Hardware                                              | Dell Poweredge R510, desktop and laptop linux systems.                   |
-| Backup                                                         | BackupPC, rsnapshot, daily, weekly and monthly backups, on and off-site  |
-| Data management                                                | R, LibreOffice, QGIS, MySQL, PostgreSQL, git                             |
-=======
 | **Feature** | **Details, software, resources** |
 |-------------------------------------|-----------------------------------|
 | Website: [https://hubbardbrook.org](https://hubbardbrook.org/) | WordPress, html, css, php, xslt, javascript, apache, piwigo |
@@ -102,20 +91,6 @@ IT support for the UNH IM team is available through the UNH Research Computer Ce
 
 ## Account access
 
-<<<<<<< HEAD
-A number of accounts require access for HBR Information Management. In some cases, access can be granted through the UNH Research Computing Center (RCC), and in other cloud-based accounts the IM has designated a backup person to have account access.
-
--   IM desktop and server \[IM/RCC\]
--   UNH HB sharepoint \[IM/Contosta at unh\]
--   Zotero \[IM/BU\]
--   Databases \[IM/RCC\]
--   Piwigo \[IM/RCC\]
--   EDI/ezEML \[IM/EDI\]
--   Jotform \[IM/Keeling at Cary\]
--   Bluehost \[IM/Post at 6288media\]
--   GitHub
--   hubbardbrook gmail \[IM/BU\]
-=======
 A number of accounts require access for HBR Information Management. In some cases, access can be granted through the UNH Research Computing Center (RCC), and in other cloud-based accounts the IM has designated a co-administrator individual (currently a UNH Colleague on the HB Science Coord Com\] .
 
 -   IM desktop and server \[IM/RChow do C\]
@@ -127,7 +102,6 @@ A number of accounts require access for HBR Information Management. In some case
 -   Jotform \[IM/CaryIT\]
 -   Bluehost \[IM/P6288media\]
 -   GitHub \[IM UNHcoAdmin\]
->>>>>>> 485dad7 (Initial commit)
 
 ## Website {#website}
 
