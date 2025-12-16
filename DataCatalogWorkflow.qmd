@@ -2,11 +2,11 @@
 
 ## Overview
 
-The purpose of this document is to capture details of the workflow to build a data catalog table that is used on the [Hubbard Brook Data Catalog](https://hubbardbrook.org/data-catalog) displayed on our website. This workflow has been reconfigured from earlier versions to now read only from publicly available sources - EDI and a public sharepoint file with enhanced data package details. The latter improve the user experience for data searchers by categorizing HBR data and adding robust LTER core area tags.
+The purpose of this document is to capture details of the workflow to build a data catalog table that is used on the [Hubbard Brook Data Catalog](https://hubbardbrook.org/data-catalog) displayed on our website. This workflow has been reconfigured from earlier versions to now read only from publicly available sources - EDI and a public sharepoint file with enhanced data package details. The latter improves the user experience when searching for data by categorizing HBR data and adding robust LTER core area tags.
 
 ## Database and File access
 
-Access to dataset details is provided by the LTER PASTA API via the EDIutils R package. The enhanced table resides on the HubbardBrook sharepoint site (HBR IM admin, UNH). The sharepoint data inventory file is maintained to track status of each dataset and to provide additional information that is not included in the formal metadata or may be lacking in very old datasets but is useful in our data catalog (LTER Core Research Area, HBR significant data status)
+Access to dataset details is provided by the LTER PASTA API via the EDIutils R package. The enhanced table resides on the HubbardBrook sharepoint site (HBR IM admin, UNH). The sharepoint data inventory file is maintained to track the status of each dataset and to provide additional information that is not included in the formal metadata or may be lacking in very old datasets but is useful in our data catalog (LTER Core Research Area, HBR significant data status, categorization to organize the catalog browse listing)
 
 ## Step-by-Step Catalog Workflow
 

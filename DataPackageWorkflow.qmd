@@ -6,13 +6,13 @@ The purpose of this document is to capture details of the data package developme
 
 In 2024, HBR fully adopted the EDI ezEML workflow for data package development. All data packages are developed under the EDI HBR user account. The division of effort varies with the nature of the data package. Graduate students are encouraged to collaborate with the IM online within the ezEML environment. This serves as a way to directly input metadata without first populating a template, reduces IM time on some data packages, and is an important skill-builder for HBR graduate students. Additionally, some of our investigators have projects beyond the scope of Hubbard Brook and have begun using this workflow to publish data.
 
-EzEML provides the capability to store often-used metadata components in a template. For HBR, there is one master template and additional templates for HB projects that are frequent publishers (MELNHE, HBWaTER, BIRD, CRCH). Since the master template is very extensive, it is not cloned as a starting point for a new dataset (which might be a common template use), but instead accessed through the import \[creator, geographic, keywords, project, funding\] buttons where just selected items are brought into the current dataset.
+EzEML provides the capability to store often-used metadata components in a template. For HBR, there is one master template and additional templates for HB projects that are frequent publishers (MELNHE, HBWatER, BIRD, CRCH). Since the master template is very extensive, it is not cloned as a starting point for a new dataset (which might be a common template use), but instead accessed through the import \[creator, geographic, keywords, project, funding\] buttons where just selected items are brought into the current dataset.
 
 ## Data package development workspace
 
-The working directory for package development is on the HBR-IM desktop with the home directory for data package managment identified elsewhere as \$DPM_HOME.
+The working directory for package development is on the HBR-IM desktop with the home directory for data package management identified elsewhere as \$DPM_HOME.
 
-Assets for each data package are in folders named \$DPM_HOME/ezEML/hbr\[pkgid\]. While most of the workflow occurs in the ezEML environment, this local filesytem is used to handle dataset assets submitted to IM (metadata templates, datafiles, etc). The completed ezEML packages are downloaded (as zip) to this location for subsequent upload to the EDI staging and production servers.
+Assets for each data package are in folders named \$DPM_HOME/ezEML/hbr\[pkgid\]. While most of the workflow occurs in the ezEML environment, this local filesystem is used to handle dataset assets submitted to IM (metadata templates, datafiles, etc). The completed ezEML packages are downloaded (as zip) to this location for subsequent upload to the EDI staging and production servers.
 
 ## Step-by-Step Data Package Workflow
 
@@ -20,7 +20,7 @@ The HBR Data Inventory table is hosted on the HubbardBrook sharepoint site (HBR-
 
 The steps are as follows:
 
--   In most cases, a very preliminary zoom with data show and tell occurs to iron out any major issues and to develop a plan for the composition of the data package.
+-   In most cases, a very preliminary zoom with data show-and-tell occurs to iron out any major issues and to develop a plan for the composition of the data package.
 -   Provide submitter with metadata template using [email template](DBD) to outline the process and description of best practices, such as:
     -   titles with what where when, with the latter YYYY, YYYY-YYYY, or YYYY-ongoing
     -   Date formats as YYYY-MM-DD, or timestamps as YYYY-MM-DD hh:mm
@@ -29,20 +29,21 @@ The steps are as follows:
     -   Authors in the order they should show up on dataset citation
     -   Keywords from the LTER controlled vocabulary (and additional if necessary)
     -   Note that commonly used chunks of metadata can be briefly described to IM without detail, such as author details, geographic locations, taxonomy. These will be pulled from the template.
--   Components for data packages are provided to the IM through a sharepoint dropoff.
+    -   funding sources go in the project section, and if a new sNSF ource is supplied the full details can be fetched by just entering the grant number
+-   Data package assets are provided to the IM through a sharepoint dropoff (data tables as csv, and 'other entities' as necessary
 -   ezEML collaboration is established if desired for the dataset.
 -   A data package is initiated in ezEML
     -   naming convention of hbr\[pkgid\]-\[shortname\]
     -   use document/new or document/new from template
 -   The HBR Master Template (stored in EDI) is used to import people, geographic areas, keywords, projects, and funding. Add items to the template if they are likely to be used in the future. One-off items can be added directly to this new dataset.
--   Data tables are loaded from csv.
--   Data table attributes are documented either directly on the online forms or through the ezEML table entity templating feature (a great timesaver for complex datatables).
--   ezEML data package is downloaded to IM's computer
--   The R script to add QUDT unit annotations is run
--   The annotated eml file is uploaded to portal-s.lternet.edu and the URL is shared with creator for review
+-   Data tables are loaded from the author-provided csv.
+-   Data table attributes are documented either directly on the online forms or through the ezEML table entity templating feature (a great timesaver for complex datatables!).
+-   Note that in 2025, QUDT units are added automatically by ezEML (you can turn this off, but no advantage to that. In 'check metadata' there is a link to review all assigned QUDT annotations, and it is a good idea to quickly scan that.
+-   When the dataset is ready for staging, that can now be done within the ezEML environment. Enter the packageID and step through the evaluation, staging, and view
+-   Share the URL for the staged package with the data creator for review
 -   Subsequent edits are made with creator feedback
 -   Data package is approved by the creator
--   Data package is uploaded to the live repository
+-   Data package is uploaded to the live repository (again right within the ezEML portal!)
 
 ## Non-tabular datasets (images, audio, very large datasets, etc)
 
@@ -50,7 +51,9 @@ Hubbard Brook has published a number of datasets that contain zip files of pdfs,
 
 ### Large Datasets
 
-In some of these cases, the data entities are quite large and cannot be uploaded with the browser interface (500Mb max), but are within the size cap for online EDI online data storage. Eatasets exceeding the 100Gb threshold are deemed "too large for HTTP” and must be prepared as offline data entities. At the current time, large datasets are staged on a UNH server with the ezEML distribution URL set to that location. In some cases we develop packages using a smaller placeholder file so that we do not overload storage on the ezEML platform or portal-s staging area.
+Datasets exceeding the 100Gb threshold are deemed "too large for HTTP” and must be prepared as offline data entities. At the current time, large datasets are staged on a UNH server with the ezEML distribution URL set to that location. In some cases we develop packages using a smaller placeholder file so that we do not overload storage on the ezEML platform or portal-s staging area.
+
+For acceptable size datasets that are nevertheless large, the HBR IM typically checks in with the ezEML developer to make sure that disk space is not an issue at that time. If ezEML upload (or data at a URL) is acceptable at the time, HBR IM can stage and publish and notify ezEML that the files can be deleted from staging.
 
 ## Notes on revising older datasets.
 
@@ -58,7 +61,7 @@ When earlier data packages are revised, the starting point is an ezEML fetch of 
 
 An EDI fetched dataset may have been developed with a non-ezEML workflow. If that is the case, items requiring attention will be:
 
--   Creators – delete and import from the template to be sure to get ORCIDs and institution RORs for each person. Use the 'sort' function on people import to find them easier in the long list.
+-   Creators – delete and import from the template to be sure to get ORCIDs and institution RORs for each person.
 -   Project – EMLAL datasets may have funding in 'related funding' or a text string in project abstract. Delete these. Import all funding from the template as primary or related. The template will have enhanced information to include grant url, funding agency ROR, etc.
 -   Intellectual rights will be correct for all older datasets, but it is best to reset that in ezEML to CC-BY selection.
 -   Increment the packageId revision number.

@@ -10,8 +10,6 @@ Beginning in Spring 2023, the RAC proposals have been submitted through the Cary
 
 Form related tasks are carried out by the HBR IM (under direction of RAC chair) to include:
 
--   Development of a clone of the old website form on the Cary JotForm account
-
 -   Add enhancements as requested by RAC chair
 
 -   Monitor incoming proposal
@@ -23,6 +21,8 @@ Form related tasks are carried out by the HBR IM (under direction of RAC chair) 
 -   JotForm technical details in appendices below
 
 -   NOTE: Access to all submissions in the JotForm environment can be made available to the RAC chair. In this scenario, there are enhanced features where the proposals could be flagged as ‘under review’, ‘accepted’, etc. And the chair could manage their own downloads of proposals.
+
+-   The new RAC chair in 2025 has monitored JotForm and handled proposal exports.
 
 ## RAC data publishing instructions
 

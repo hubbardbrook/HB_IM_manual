@@ -2,23 +2,23 @@
 
 ## Overview
 
-Hubbard Brook publications are managed in Zotero. The primary database is on the IM desktop where publications are initially ingested.
+Hubbard Brook publications are managed in Zotero. The primary database is on the IM desktop where publications are initially ingested. The full bibliography can be found [here](https://www.zotero.org/groups/4549695/hubbard_brook_ecosystem_study/library). Note the use of tags below for further exploration of this library.
 
 ## Zotero - step-by-step
 
 -   By using Zotero on the UNH network or via VPN, there is full access to (most) publications through the UNH Library and those are saved with each citation.
 -   publications are identified through self-reporting to IM, google scholar searches, Hubbard Brook Monthly newsletters, and HBR LTER Annual Reports.
 -   each update period is managed in a dated folder in zotero
--   by clicking zotero icon on pub landing page, it is ingested into Zotero (full citation plus accessible pdfs)
--   tagging identifies 'LTER', 'data-only', and last_firstinitial tags for each HB author (the latter facilitates Zotpress links to each person's profile on the website).
--   once tagged, the new pubs are copied to the HBR-LTER group folder.
+-   by clicking zotero icon on pub landing page, it is ingested into Zotero (full citation plus accessible pdfs). Some publications require InterLibraryLoan, which typically takes \< 24hours to receive the pdf. Those are then added to the citation with rightClick/addAttachement.
+-   tagging identifies 'LTER', 'data-only', and last_firstinitial tags for each HB author (the latter facilitates Zotpress links to each person's profile on the website). Additional tags are HBR_dataonly, HB_related, and archived_samples.
+-   once tagged, the new pubs are copied to the HBR-LTER group folder. At one level above this is 'Hubbard Brook Ecosystem Study' - pubs that are not HBR-LTER are added to the group at that level.
 -   the group folder is synced to the hubbardbrook Zotero cloud account. Syncing is set *not* to upload the pdfs, as this can violate copyright. Publications since \~2010 contain DOI links.
--   an ongoing effort is underway (2025) to add DOIs to the citations. DOIs were issued beginning in 1997, but publishers have retroactively assigned DOIs to older publications. For example, Leonard, R. E. (1961), Net precipitation in a northern hardwood forest, *J. Geophys. Res.*, 66(8), 2417–2421, doi:[10.1029/JZ066i008p02417](https://doi.org/10.1029/JZ066i008p02417 "Link to external resource: 10.1029/JZ066i008p02417").
+-   an ongoing effort is underway (2025) to add DOIs and attached PDFs to the Zotero records. DOIs were issued beginning in 1997, but publishers have retroactively assigned DOIs to older publications. For example, Leonard, R. E. (1961), Net precipitation in a northern hardwood forest, *J. Geophys. Res.*, 66(8), 2417–2421, doi:[10.1029/JZ066i008p02417](https://doi.org/10.1029/JZ066i008p02417 "Link to external resource: 10.1029/JZ066i008p02417").
 -   This article was the motivation to capture digital articles. We do have paper copies at Pleasant View Farm from inception through 2000. By archiving digital copies, these older publications become more accessible to our research community - they can be provided by the HBR IM upon request. https://www.nature.com/articles/d41586-024-03842-z
 
 ## EDI publication-data linkages
 
-The EDI repository facilitates the linking of publications with underlying data through the 'add journal citation' feature. For HBR we add all known linkages. The EDI team has a semi-automated process where they identify new data DOI's in the literature and then they add the pubs to the datasets. This is not 100%, as some papers still slip up on proper data citation, or data publication lags paper publication. In this case, IM is on the lookout for instances where manual additions need to be made. Carefully documenting the use of data in publications in this way provided important metrics on the value of our data.
+The EDI repository facilitates the linking of publications with underlying data through the 'add journal citation' feature. For HBR we add all known linkages. The EDI team has a semi-automated process where they identify new data DOI's in the literature and then they add the pubs to the datasets. This is not 100%, as some papers still slip up on proper data citation, or data publication lags paper publication. In this case, IM is on the lookout for instances where manual additions need to be made. Carefully documenting the use of data in publications in this way provided important metrics on the value of our data. Each paper added to the bibliography is reviewed for underlying data and IM confirms that the pub is associated with the dataset in EDI, and if not, adds the article.
 
 ## Zotpress
 

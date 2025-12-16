@@ -20,3 +20,4 @@ Shared access to this data inventory table is view-only. Edits to the table are 
 -   ltercore: core research areas (DP(disturbance process),IM(inorganic matter),OM(organic matter),PP(primary production),PS(population study)
 -   hbr_vcited: data cited in HBR-V publications
 -   hbr_vtop10: data cited in HBR-V top 10 publications
+-   longterm data category: to further organize core longterm data. helpful when evaluating status and reaching out to investigators

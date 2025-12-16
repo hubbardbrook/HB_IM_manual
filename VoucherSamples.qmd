@@ -1,3 +1,20 @@
-# Voucher Specimens
+# Voucher Specimens 
 
-## Under construction
+## Background 
+
+There has been a decades-long history of voucher collections at Hubbard Brook. These were typically ad hoc collections, with no coordinated effort in the destination collections, or reporting to HB leadership. The end result is that several thousand voucher samples can be found in over 40 collections in the US and Canada.
+
+The [2024 LTER solicitation](https://new.nsf.gov/funding/opportunities/long-term-ecological-research-lter/nsf24-520/solicitation#prep) includes specific language requiring a plan for handling and potentially archiving specimens collected by LTER sites. 
+
+*“For proposals that include specimen collection: If collecting or generating specimens (e.g., organisms, parts of organisms, fossils including trace fossils, microbial isolates, etc.) is proposed, the Data Management Plan must include a description of how the specimens and associated data will be accessioned into and maintained in an established biological collection.”*
+
+Although current HB projects not generate many grant-related voucher specimens, this was a good nudge toward determining what had been collected, and to develop recommendations in the event that a grant were to be submitted that required voucher language in the data management plan.
+
+## What samples have already been submitted to collections?
+
+This opened a huge can of worms! Searching was done in a variety of manners - known collections, collection clearinghouses (iDigBio, Symbiota thematic portals), personal outreach, etc.
+
+This spreadsheet contains those samples found to date: [Voucher sample draft inventory](https://universitysystemnh.sharepoint.com/:x:/r/teams/HubbardBrook/Shared%20Documents/HubbardBrookVoucherSpecimens/HubbardBrookVoucherSpecimens.xlsx?d=weab44ee3bb8940d8a7acac2a1547dfd6&csf=1&web=1&e=SZlwfj) This is just a draft of 'notes' on existing collections to be reformatted and enhanced to be more of a 'finding guide' to samples that may exist now in collections.  It is evident that there are some key collections that house Hubbard Brook samples and some of these have well-established relationship with Hubbard Brook. This makes them likely collection candidates for future samples to be collected. This is a work-in-progress and more details are forthcoming as we develop best practices recommendations for the site.
+
+## Recommendations for future sample submissions
+** under development**
