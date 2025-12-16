@@ -1,3 +1,11 @@
 # Personnel Directory
 
-Describe tracking, grad/postdoc lists, updates to LNO
+The site website provides profile pages for everyone involve with Hubbard Brook. This includes leadership, investigators, adminstration, grad, postdocs, and technicians. Not everyone chooses to have a public profile page.
+
+Everyone involved at Hubbard Brook is tracked through a master list in sync with the LNO directory. Once in that table, an individual may change roles or become inactive, and in both cases their record(s) reflect that (no deletions). This list was greatly enhanced with a review in 2024 that added ORCIDs and begin-end dates of involvement at HB.
+
+Graduate students: A special list include careful tracking of grad students with placeholder thesis titles or area of interest. Once a student has graduated, their thesis is entered in the bibliography.
+
+PostDocs: In a recent (2025) effort, postdocs were identified throughout the history of work at Hubbard Brook.
+
+The master list is synced with the LTER network office master list periodically.
