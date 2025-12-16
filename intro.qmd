@@ -78,12 +78,12 @@ Table 1. Features of HBR Information Management System
 |-------------------------------------|-----------------------------------|
 | Website: [https://hubbardbrook.org](https://hubbardbrook.org/) | WordPress, html, css, php, xslt, javascript, apache, piwigo |
 | Bibliography | Zotero, Zotpress wordpress plugin |
+| Photo Gallery | migrating to SmugMug in early 2026 |
 | Data Catalog | EDI data repository, local WordPress gateway to EDI HBR data, EDIutils R |
 | Metadata | ezEML, PostgreSQL, EML R package, EML2.1 |
 | Computer Hardware | Dell Poweredge R510, desktop and laptop linux systems. |
 | Backup | BackupPC, rsnapshot, daily, weekly and monthly backups, on and off-site |
 | Data management | R, LibreOffice, QGIS, MySQL, PostgreSQL, git |
->>>>>>> 485dad7 (Initial commit)
 
 ## IT Support
 
