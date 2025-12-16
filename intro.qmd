@@ -91,7 +91,7 @@ IT support for the UNH IM team is available through the UNH Research Computer Ce
 
 ## Account access
 
-A number of accounts require access for HBR Information Management. In some cases, access can be granted through the UNH Research Computing Center (RCC), and in other cloud-based accounts the IM has designated a co-administrator individual (currently a UNH Colleague on the HB Science Coord Com\] .
+A number of accounts require access for HBR Information Management. In some cases, access can be granted through the UNH Research Computing Center (RCC), and in other cloud-based accounts the IM has designated a co-administrator individual (currently a UNH department colleague on the HB Science Coord Com\] .
 
 -   IM desktop and server \[IM/RChow do C\]
 -   UNH HB sharepoint \[IM/UNHcoAdmin\]
