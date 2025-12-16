@@ -84,7 +84,7 @@
     "href": "intro.html#account-access",
     "title": "1  Data Management Plan",
     "section": "1.8 Account access",
-    "text": "1.8 Account access\nA number of accounts require access for HBR Information Management. In some cases, access can be granted through the UNH Research Computing Center (RCC), and in other cloud-based accounts the IM has designated a co-administrator individual (currently a UNH Colleague on the HB Science Coord Com] .\n\nIM desktop and server [IM/RChow do C]\nUNH HB sharepoint [IM/UNHcoAdmin]\nZotero [IM/UNHcoAdmin]\nDatabases [IM/RCC]\nPiwigo [IM/RCC]\nEDI/ezEML [IM/EDI]\nJotform [IM/CaryIT]\nBluehost [IM/P6288media]\nGitHub [IM UNHcoAdmin]",
+    "text": "1.8 Account access\nA number of accounts require access for HBR Information Management. In some cases, access can be granted through the UNH Research Computing Center (RCC), and in other cloud-based accounts the IM has designated a co-administrator individual (currently a UNH department colleague on the HB Science Coord Com] .\n\nIM desktop and server [IM/RChow do C]\nUNH HB sharepoint [IM/UNHcoAdmin]\nZotero [IM/UNHcoAdmin]\nDatabases [IM/RCC]\nPiwigo [IM/RCC]\nEDI/ezEML [IM/EDI]\nJotform [IM/CaryIT]\nBluehost [IM/P6288media]\nGitHub [IM UNHcoAdmin]",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Management Plan</span>"
     ]
