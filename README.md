@@ -1,1 +1,1 @@
-# HB_IM_manual
+Hubbard Brook Information Management Manual
