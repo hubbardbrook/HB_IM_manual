@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="./intro.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1bc3b17e7a2c2828f435aa750fb76336.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0dd2bd5de344125cf763a379ddc3eb04.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -106,7 +107,8 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./HBESlogo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="./HBESlogo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="./HBESlogo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Hubbard Brook Information Management Documents</a> 
@@ -263,19 +265,19 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="2.1" class="anchored" data-anchor-id="overview"><span class="header-section-number">2.1</span> Overview</h2>
 <p>The purpose of this document is to capture details of the data package development workflow that is currently in use at Hubbard Brook. HBR data is published in the <a href="https://edirepository.org">Environmental Data Initiative Repository (EDI)</a>. With the availability of EDI’s ezEML data package builder application (adopted by HBR in 2024), this once long and complicated process has been greatly simplified.</p>
 <p>In 2024, HBR fully adopted the EDI ezEML workflow for data package development. All data packages are developed under the EDI HBR user account. The division of effort varies with the nature of the data package. Graduate students are encouraged to collaborate with the IM online within the ezEML environment. This serves as a way to directly input metadata without first populating a template, reduces IM time on some data packages, and is an important skill-builder for HBR graduate students. Additionally, some of our investigators have projects beyond the scope of Hubbard Brook and have begun using this workflow to publish data.</p>
-<p>EzEML provides the capability to store often-used metadata components in a template. For HBR, there is one master template and additional templates for HB projects that are frequent publishers (MELNHE, HBWaTER, BIRD, CRCH). Since the master template is very extensive, it is not cloned as a starting point for a new dataset (which might be a common template use), but instead accessed through the import [creator, geographic, keywords, project, funding] buttons where just selected items are brought into the current dataset.</p>
+<p>EzEML provides the capability to store often-used metadata components in a template. For HBR, there is one master template and additional templates for HB projects that are frequent publishers (MELNHE, HBWatER, BIRD, CRCH). Since the master template is very extensive, it is not cloned as a starting point for a new dataset (which might be a common template use), but instead accessed through the import [creator, geographic, keywords, project, funding] buttons where just selected items are brought into the current dataset.</p>
 </section>
 <section id="data-package-development-workspace" class="level2" data-number="2.2">
 <h2 data-number="2.2" class="anchored" data-anchor-id="data-package-development-workspace"><span class="header-section-number">2.2</span> Data package development workspace</h2>
-<p>The working directory for package development is on the HBR-IM desktop with the home directory for data package managment identified elsewhere as $DPM_HOME.</p>
-<p>Assets for each data package are in folders named $DPM_HOME/ezEML/hbr[pkgid]. While most of the workflow occurs in the ezEML environment, this local filesytem is used to handle dataset assets submitted to IM (metadata templates, datafiles, etc). The completed ezEML packages are downloaded (as zip) to this location for subsequent upload to the EDI staging and production servers.</p>
+<p>The working directory for package development is on the HBR-IM desktop with the home directory for data package management identified elsewhere as $DPM_HOME.</p>
+<p>Assets for each data package are in folders named $DPM_HOME/ezEML/hbr[pkgid]. While most of the workflow occurs in the ezEML environment, this local filesystem is used to handle dataset assets submitted to IM (metadata templates, datafiles, etc). The completed ezEML packages are downloaded (as zip) to this location for subsequent upload to the EDI staging and production servers.</p>
 </section>
 <section id="step-by-step-data-package-workflow" class="level2" data-number="2.3">
 <h2 data-number="2.3" class="anchored" data-anchor-id="step-by-step-data-package-workflow"><span class="header-section-number">2.3</span> Step-by-Step Data Package Workflow</h2>
 <p>The HBR Data Inventory table is hosted on the HubbardBrook sharepoint site (HBR-IM administrator at UNH). This table contains additional information that we use on our local data catalog to enhance user experience (flagging of significant core datasets, more robust LTER Core Research Area assignments that may be missing in older metadata, and a code to categorize datasets and to sort them in the initial catalog view). Data packages are entered in this table as soon as they are identified (in some cases with very long lead times). Upon becoming aware of a dataset, a package id is assigned and the entry initiated with status=anticipated. As soon as data and/or metadata are in-hand, the status is updated to ‘draft’, ‘cataloged’ when published, and ‘embargoed’ if published with a temporary embargo. The table includes packageID, abbreviated title, contact, notes as needed, flagging as long-term core dataset, and EDI submission status.</p>
 <p>The steps are as follows:</p>
 <ul>
-<li>In most cases, a very preliminary zoom with data show and tell occurs to iron out any major issues and to develop a plan for the composition of the data package.</li>
+<li>In most cases, a very preliminary zoom with data show-and-tell occurs to iron out any major issues and to develop a plan for the composition of the data package.</li>
 <li>Provide submitter with metadata template using <a href="DBD">email template</a> to outline the process and description of best practices, such as:
 <ul>
 <li>titles with what where when, with the latter YYYY, YYYY-YYYY, or YYYY-ongoing</li>
@@ -285,8 +287,9 @@ ul.task-list li input[type="checkbox"] {
 <li>Authors in the order they should show up on dataset citation</li>
 <li>Keywords from the LTER controlled vocabulary (and additional if necessary)</li>
 <li>Note that commonly used chunks of metadata can be briefly described to IM without detail, such as author details, geographic locations, taxonomy. These will be pulled from the template.</li>
+<li>funding sources go in the project section, and if a new sNSF ource is supplied the full details can be fetched by just entering the grant number</li>
 </ul></li>
-<li>Components for data packages are provided to the IM through a sharepoint dropoff.</li>
+<li>Data package assets are provided to the IM through a sharepoint dropoff (data tables as csv, and ‘other entities’ as necessary</li>
 <li>ezEML collaboration is established if desired for the dataset.</li>
 <li>A data package is initiated in ezEML
 <ul>
@@ -294,14 +297,14 @@ ul.task-list li input[type="checkbox"] {
 <li>use document/new or document/new from template</li>
 </ul></li>
 <li>The HBR Master Template (stored in EDI) is used to import people, geographic areas, keywords, projects, and funding. Add items to the template if they are likely to be used in the future. One-off items can be added directly to this new dataset.</li>
-<li>Data tables are loaded from csv.</li>
-<li>Data table attributes are documented either directly on the online forms or through the ezEML table entity templating feature (a great timesaver for complex datatables).</li>
-<li>ezEML data package is downloaded to IM’s computer</li>
-<li>The R script to add QUDT unit annotations is run</li>
-<li>The annotated eml file is uploaded to portal-s.lternet.edu and the URL is shared with creator for review</li>
+<li>Data tables are loaded from the author-provided csv.</li>
+<li>Data table attributes are documented either directly on the online forms or through the ezEML table entity templating feature (a great timesaver for complex datatables!).</li>
+<li>Note that in 2025, QUDT units are added automatically by ezEML (you can turn this off, but no advantage to that. In ‘check metadata’ there is a link to review all assigned QUDT annotations, and it is a good idea to quickly scan that.</li>
+<li>When the dataset is ready for staging, that can now be done within the ezEML environment. Enter the packageID and step through the evaluation, staging, and view</li>
+<li>Share the URL for the staged package with the data creator for review</li>
 <li>Subsequent edits are made with creator feedback</li>
 <li>Data package is approved by the creator</li>
-<li>Data package is uploaded to the live repository</li>
+<li>Data package is uploaded to the live repository (again right within the ezEML portal!)</li>
 </ul>
 </section>
 <section id="non-tabular-datasets-images-audio-very-large-datasets-etc" class="level2" data-number="2.4">
@@ -309,7 +312,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Hubbard Brook has published a number of datasets that contain zip files of pdfs, images, audio files, etc. Guidance for preparing these special case datasets can be found in the <a href="https://ediorg.github.io/data-package-best-practices/data-package-design-for-special-cases.html">EML Best Practices document</a>.</p>
 <section id="large-datasets" class="level3" data-number="2.4.1">
 <h3 data-number="2.4.1" class="anchored" data-anchor-id="large-datasets"><span class="header-section-number">2.4.1</span> Large Datasets</h3>
-<p>In some of these cases, the data entities are quite large and cannot be uploaded with the browser interface (500Mb max), but are within the size cap for online EDI online data storage. Eatasets exceeding the 100Gb threshold are deemed “too large for HTTP” and must be prepared as offline data entities. At the current time, large datasets are staged on a UNH server with the ezEML distribution URL set to that location. In some cases we develop packages using a smaller placeholder file so that we do not overload storage on the ezEML platform or portal-s staging area.</p>
+<p>Datasets exceeding the 100Gb threshold are deemed “too large for HTTP” and must be prepared as offline data entities. At the current time, large datasets are staged on a UNH server with the ezEML distribution URL set to that location. In some cases we develop packages using a smaller placeholder file so that we do not overload storage on the ezEML platform or portal-s staging area.</p>
+<p>For acceptable size datasets that are nevertheless large, the HBR IM typically checks in with the ezEML developer to make sure that disk space is not an issue at that time. If ezEML upload (or data at a URL) is acceptable at the time, HBR IM can stage and publish and notify ezEML that the files can be deleted from staging.</p>
 </section>
 </section>
 <section id="notes-on-revising-older-datasets." class="level2" data-number="2.5">
@@ -317,7 +321,7 @@ ul.task-list li input[type="checkbox"] {
 <p>When earlier data packages are revised, the starting point is an ezEML fetch of the published data package. Steps are similar to those used for a new dataset, but remember to increment the revision number. Assets for earlier data packages developed can be found in either the ‘EMLassemblyline’ or ‘legacy’ folders, although those files should rarely be necessary once a data package is published in EDI.</p>
 <p>An EDI fetched dataset may have been developed with a non-ezEML workflow. If that is the case, items requiring attention will be:</p>
 <ul>
-<li>Creators – delete and import from the template to be sure to get ORCIDs and institution RORs for each person. Use the ‘sort’ function on people import to find them easier in the long list.</li>
+<li>Creators – delete and import from the template to be sure to get ORCIDs and institution RORs for each person.</li>
 <li>Project – EMLAL datasets may have funding in ‘related funding’ or a text string in project abstract. Delete these. Import all funding from the template as primary or related. The template will have enhanced information to include grant url, funding agency ROR, etc.</li>
 <li>Intellectual rights will be correct for all older datasets, but it is best to reset that in ezEML to CC-BY selection.</li>
 <li>Increment the packageId revision number.</li>
@@ -383,13 +387,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

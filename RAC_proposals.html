@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="./OnlineBook.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1bc3b17e7a2c2828f435aa750fb76336.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0dd2bd5de344125cf763a379ddc3eb04.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -106,7 +107,8 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./HBESlogo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="./HBESlogo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="./HBESlogo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Hubbard Brook Information Management Documents</a> 
@@ -263,13 +265,13 @@ ul.task-list li input[type="checkbox"] {
 <p>Beginning in Spring 2023, the RAC proposals have been submitted through the Cary institute Jotform. Prior to this, the submission pathway was via website forms hosted at UNH (2008-2014) and google forms (2015-2023). The structure of the form was migrated to JotForm, and from 2023-2024 a number of enhancements have been made. The Hubbard Brook sharepoint RAC folder contains a backup of all proposals. Admin access to the JotForm can be obtained from IT support at the Cary Institute.</p>
 <p>Form related tasks are carried out by the HBR IM (under direction of RAC chair) to include:</p>
 <ul>
-<li><p>Development of a clone of the old website form on the Cary JotForm account</p></li>
 <li><p>Add enhancements as requested by RAC chair</p></li>
 <li><p>Monitor incoming proposal</p></li>
 <li><p>Prepare proposals for review by RAC (export individually as pdf, and in an appended pdf format).</p></li>
 <li><p>HBR IM reaches out to accepted proposal leads to let them know how we archive data in the repository at HBR, what the IM needs to know about their data collection, and what assistance can be provided to them by the IM. See <a href="TBD">email template</a></p></li>
 <li><p>JotForm technical details in appendices below</p></li>
 <li><p>NOTE: Access to all submissions in the JotForm environment can be made available to the RAC chair. In this scenario, there are enhanced features where the proposals could be flagged as ‘under review’, ‘accepted’, etc. And the chair could manage their own downloads of proposals.</p></li>
+<li><p>The new RAC chair in 2025 has monitored JotForm and handled proposal exports.</p></li>
 </ul>
 </section>
 <section id="rac-data-publishing-instructions" class="level2" data-number="12.3">
@@ -345,13 +347,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
