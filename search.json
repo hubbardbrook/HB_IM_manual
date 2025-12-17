@@ -404,7 +404,7 @@
     "href": "Website.html",
     "title": "10  Website",
     "section": "",
-    "text": "10.1 Content editing access\nThe Hubbard Brook website is developed in WordPress and hosted on Bluehost. Admin access is granted to the HBR IM and to the WordPress consultant. Details on the setup of the site, hosting account access, domain name management, plugin accounts and codes are all maintained off-line and can be accessed by the HBR IM as necessary.\nThis document is limited to tools and tips for maintaining the current content and for adding new content.\nInstructions for Adding Website Content\nLog in to the site at hubbardbrook.org/wp-admin. HBR IM is the admin for this site, other content creators can be added as necessary",
+    "text": "10.1 Content editing access\nThe Hubbard Brook website is developed in WordPress and hosted on Bluehost. Admin access is granted to the HBR IM and to the WordPress consultant. Details on the setup of the site, hosting account access, domain name management, plugin accounts and codes are all maintained off-line and can be accessed by the HBR IM as necessary (files are on Hubbard Brook Research Foundation ‘Hubbard Brook Website’ shared drive).\nThis document is limited to tools and tips for maintaining the current content and for adding new content.\nInstructions for Adding Website Content\nLog in to the site at hubbardbrook.org/wp-admin. HBR IM is the admin for this site, other content creators can be added as necessary",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
@@ -434,7 +434,7 @@
     "href": "Website.html#creating-new-pages",
     "title": "10  Website",
     "section": "10.4 Creating new pages",
-    "text": "10.4 Creating new pages\nPages are typically used for more static website content. Pages are typically accessed through the high level menu, or from links within existing pages\n\n\nAdd new page\nAdd title\nEnter Beaver Builder mode to construct page",
+    "text": "10.4 Creating new pages\nPages are typically used for more static website content. Pages are typically accessed through the high level menu, or from links within existing pages\nAdd new page\nAdd title\nEnter Beaver Builder mode to construct page",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
@@ -444,7 +444,7 @@
     "href": "Website.html#adding-new-people-pages",
     "title": "10  Website",
     "section": "10.5 Adding new People pages",
-    "text": "10.5 Adding new People pages",
+    "text": "10.5 Adding new People pages\nTo add profile pages to the website, request the following information. This list is included in the Welcome email template.\nThere is a dedicated page type for ‘Persons” in the left website admin dashboard. Note the tags that can be selected on the right hand side when you open the “Person’ template. information entry is through this form, with the text block at the top to contain the research interest statement. Just a little quirk….that statement must include a ‘.’\nAlso, add the following zotpress code to include that person’s HBR bibliography at the bottom of their page (where last_f is replaced with lastname_firstInitial:\n[zotpress tag=“last_f” sortby=“date” order=“desc”]\n\n*Name:\n*Institution:\n*Department:\n*Address:\nPhone:\nEmail:\nORCID:\nInstitution Homepage Link:\n*A short Research Interest Statement:\n*Please attach a photo!\nFor Grad Student profiles:\n*Advisor:\n*MS or PhD:",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
@@ -474,17 +474,7 @@
     "href": "Website.html#general-tips-on-beaver-builder-bb-layouts",
     "title": "10  Website",
     "section": "10.8 General tips on Beaver Builder (BB) layouts",
-    "text": "10.8 General tips on Beaver Builder (BB) layouts\nBB General Documentation\nhttps://docs.wpbeaverbuilder.com/beaver-builder\nBB Rows\nhttps://docs.wpbeaverbuilder.com/beaver-builder/layouts/rows/work-with-rows\nBB Modules\nhttps://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/module-overview\nBB YouTube\nhttps://www.youtube.com/c/BeaverBuilderWP/featured",
-    "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
-    ]
-  },
-  {
-    "objectID": "Website.html#setting-publication-status-and-visibility",
-    "href": "Website.html#setting-publication-status-and-visibility",
-    "title": "10  Website",
-    "section": "10.9 Setting publication status and visibility",
-    "text": "10.9 Setting publication status and visibility",
+    "text": "10.8 General tips on Beaver Builder (BB) layouts\nBB General Documentation\nhttps://docs.wpbeaverbuilder.com/beaver-builder\nBB Rows\nhttps://docs.wpbeaverbuilder.com/beaver-builder/layouts/rows/work-with-rows\nBB Modules\nhttps://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/module-overview\nBB YouTube\nhttps://www.youtube.com/c/BeaverBuilderWP/featured\n\nSetting publication status and visibility\nWhen developing pages, visibility can be set to password if you really don’t want it discovered. If it is fully published but not linked in to menu or pages, and not a sensitive development page, then it is unlikely to be seen unless you share the direct link.",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
@@ -493,8 +483,8 @@
     "objectID": "Website.html#theme-colors",
     "href": "Website.html#theme-colors",
     "title": "10  Website",
-    "section": "10.10 Theme colors",
-    "text": "10.10 Theme colors",
+    "section": "10.9 Theme colors",
+    "text": "10.9 Theme colors\n#b75229 (link color, button background)\n#507282 (heading color, button hover color)\n#231f20 (text color)",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
@@ -503,18 +493,18 @@
     "objectID": "Website.html#headings",
     "href": "Website.html#headings",
     "title": "10  Website",
-    "section": "10.11 Headings",
-    "text": "10.11 Headings\nWhen designating heading sizes on pages, there should only be one H1 heading per page/post as the H1 is designated for the page title. This is automatically done in the title/BCs/search bar, so when working on pages, you should only be designating H2 or smaller (and you can use multiple H2s and smaller per page/post). Here is an example:\nhttps://hubbardbrook.org/policy-briefings-youth-climate-forums/\n\nPolicy Briefings & Youth Climate Forums in the title/BCs/search bar gets the h1 designation\nthe Policy Briefings text and the Youth Climate Forums text in their sections gets h2 because those are the second most important headings\nother headings can get h3 or smaller depending on their importance\n\nAn article about this:\nhttps://yoast.com/how-to-use-headings-on-your-site/",
+    "section": "10.10 Headings",
+    "text": "10.10 Headings\nWhen designating heading sizes on pages, there should only be one H1 heading per page/post as the H1 is designated for the page title. This is automatically done in the title/BCs/search bar, so when working on pages, you should only be designating H2 or smaller (and you can use multiple H2s and smaller per page/post). Here is an example:\nhttps://hubbardbrook.org/policy-briefings-youth-climate-forums/\n\nPolicy Briefings & Youth Climate Forums in the title/BCs/search bar gets the h1 designation\nthe Policy Briefings text and the Youth Climate Forums text in their sections gets h2 because those are the second most important headings\nother headings can get h3 or smaller depending on their importance\n\nAn article about this:\nhttps://yoast.com/how-to-use-headings-on-your-site/",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
   },
   {
-    "objectID": "Website.html#migrating-content",
-    "href": "Website.html#migrating-content",
+    "objectID": "Website.html#migrating-content-via-cutpaste",
+    "href": "Website.html#migrating-content-via-cutpaste",
     "title": "10  Website",
-    "section": "10.12 Migrating content",
-    "text": "10.12 Migrating content\nWhen cutting and pasting text from documents or other websites, it is important to switch to the ‘text’ tab (not ‘visual’) in the text editor. This will paste the content in plain text, and not drag along any formatting bits from the originating document.",
+    "section": "10.11 Migrating content (via cut/paste)",
+    "text": "10.11 Migrating content (via cut/paste)\nWhen cutting and pasting text from documents or other websites, it is important to switch to the ‘text’ tab (not ‘visual’) in the text editor. This will paste the content in plain text, and not drag along any formatting bits from the originating document.",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
