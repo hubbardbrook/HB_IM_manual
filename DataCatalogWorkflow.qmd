@@ -57,7 +57,7 @@ return(df)
 }
 
 # URL of your SharePoint Excel file
-url \<- "[https://universitysystemnh.sharepoint.com/:x:/t/HubbardBrook/EXFAJdG37VxOsrGI5jMhxmcBc1vTpUnZw1WPtiP3Q5Mc4A?download=1"](https://universitysystemnh.sharepoint.com/:x:/t/HubbardBrook/EXFAJdG37VxOsrGI5jMhxmcBc1vTpUnZw1WPtiP3Q5Mc4A?download=1")
+url \<- [PUT YOUR LOCAL TABLE URL HERE] 
 
 # Read the Excel file
 df \<- data.frame(read_sharepoint_excel(url))
