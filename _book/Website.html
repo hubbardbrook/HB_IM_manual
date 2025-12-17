@@ -232,10 +232,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#adding-lessons" id="toc-adding-lessons" class="nav-link" data-scroll-target="#adding-lessons"><span class="header-section-number">10.6</span> Adding Lessons</a></li>
   <li><a href="#adding-content-to-the-media-library" id="toc-adding-content-to-the-media-library" class="nav-link" data-scroll-target="#adding-content-to-the-media-library"><span class="header-section-number">10.7</span> Adding content to the media library</a></li>
   <li><a href="#general-tips-on-beaver-builder-bb-layouts" id="toc-general-tips-on-beaver-builder-bb-layouts" class="nav-link" data-scroll-target="#general-tips-on-beaver-builder-bb-layouts"><span class="header-section-number">10.8</span> General tips on Beaver Builder (BB) layouts</a></li>
-  <li><a href="#setting-publication-status-and-visibility" id="toc-setting-publication-status-and-visibility" class="nav-link" data-scroll-target="#setting-publication-status-and-visibility"><span class="header-section-number">10.9</span> Setting publication status and visibility</a></li>
-  <li><a href="#theme-colors" id="toc-theme-colors" class="nav-link" data-scroll-target="#theme-colors"><span class="header-section-number">10.10</span> Theme colors</a></li>
-  <li><a href="#headings" id="toc-headings" class="nav-link" data-scroll-target="#headings"><span class="header-section-number">10.11</span> Headings</a></li>
-  <li><a href="#migrating-content" id="toc-migrating-content" class="nav-link" data-scroll-target="#migrating-content"><span class="header-section-number">10.12</span> Migrating content</a></li>
+  <li><a href="#theme-colors" id="toc-theme-colors" class="nav-link" data-scroll-target="#theme-colors"><span class="header-section-number">10.9</span> Theme colors</a></li>
+  <li><a href="#headings" id="toc-headings" class="nav-link" data-scroll-target="#headings"><span class="header-section-number">10.10</span> Headings</a></li>
+  <li><a href="#migrating-content-via-cutpaste" id="toc-migrating-content-via-cutpaste" class="nav-link" data-scroll-target="#migrating-content-via-cutpaste"><span class="header-section-number">10.11</span> Migrating content (via cut/paste)</a></li>
   </ul>
 </nav>
     </div>
@@ -261,7 +260,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The Hubbard Brook website is developed in WordPress and hosted on Bluehost. Admin access is granted to the HBR IM and to the WordPress consultant. Details on the setup of the site, hosting account access, domain name management, plugin accounts and codes are all maintained off-line and can be accessed by the HBR IM as necessary.</p>
+<p>The Hubbard Brook website is developed in WordPress and hosted on Bluehost. Admin access is granted to the HBR IM and to the WordPress consultant. Details on the setup of the site, hosting account access, domain name management, plugin accounts and codes are all maintained off-line and can be accessed by the HBR IM as necessary (files are on Hubbard Brook Research Foundation ‘Hubbard Brook Website’ shared drive).</p>
 <p>This document is limited to tools and tips for maintaining the current content and for adding new content.</p>
 <p>Instructions for Adding Website Content</p>
 <section id="content-editing-access" class="level2" data-number="10.1">
@@ -293,24 +292,34 @@ ul.task-list li input[type="checkbox"] {
 </p>
 <p>NOTE: when transferring older news articles from the drupal site, use this checklist to indicate status&nbsp; (y=now on wordpress; changed to a feature story; save archive, but do not put on wp site; etc)</p>
 <p>https://docs.google.com/spreadsheets/d/1yPRhX9DHN1tL8_EQAt9WCQloV5xwf4tymI009C2Pfic/edit?usp=sharing</p>
-<p><br>
-</p>
 </section>
 <section id="creating-new-pages" class="level2" data-number="10.4">
 <h2 data-number="10.4" class="anchored" data-anchor-id="creating-new-pages"><span class="header-section-number">10.4</span> Creating new pages</h2>
 <p>Pages are typically used for more static website content. Pages are typically accessed through the high level menu, or from links within existing pages</p>
-<p><br>
-</p>
 <p>Add new page</p>
 <p>Add title</p>
 <p>Enter Beaver Builder mode to construct page</p>
-<p><br>
-</p>
 </section>
 <section id="adding-new-people-pages" class="level2" data-number="10.5">
 <h2 data-number="10.5" class="anchored" data-anchor-id="adding-new-people-pages"><span class="header-section-number">10.5</span> Adding new People pages</h2>
+<p>To add profile pages to the website, request the following information. This list is included in the Welcome email template.</p>
+<p>There is a dedicated page type for ‘Persons” in the left website admin dashboard. Note the tags that can be selected on the right hand side when you open the “Person’ template. information entry is through this form, with the text block at the top to contain the research interest statement. Just a little quirk….that statement must include a ‘.’</p>
+<p>Also, add the following zotpress code to include that person’s HBR bibliography at the bottom of their page (where last_f is replaced with lastname_firstInitial:</p>
+<p>[zotpress tag=“last_f” sortby=“date” order=“desc”]</p>
 <p><br>
-</p>
+*Name:</p>
+<p>*Institution:</p>
+<p>*Department:</p>
+<p>*Address:</p>
+<p>Phone:</p>
+<p>Email:</p>
+<p>ORCID:</p>
+<p>Institution Homepage Link:</p>
+<p>*A short Research Interest Statement:</p>
+<p>*Please attach a photo!</p>
+<p>For Grad Student profiles:</p>
+<p>*Advisor:</p>
+<p>*MS or PhD:</p>
 </section>
 <section id="adding-lessons" class="level2" data-number="10.6">
 <h2 data-number="10.6" class="anchored" data-anchor-id="adding-lessons"><span class="header-section-number">10.6</span> Adding Lessons</h2>
@@ -321,9 +330,6 @@ ul.task-list li input[type="checkbox"] {
 <p>Select Templates/SavedTemplates/LessonTemplate</p>
 <p>Enter descriptive text in left column</p>
 <p>Enter lesson assets in right column</p>
-<p><br>
-<br>
-</p>
 </section>
 <section id="adding-content-to-the-media-library" class="level2" data-number="10.7">
 <h2 data-number="10.7" class="anchored" data-anchor-id="adding-content-to-the-media-library"><span class="header-section-number">10.7</span> Adding content to the media library</h2>
@@ -346,20 +352,17 @@ ul.task-list li input[type="checkbox"] {
 <p>BB YouTube</p>
 <p>https://www.youtube.com/c/BeaverBuilderWP/featured</p>
 <p><br>
-</p>
+Setting publication status and visibility</p>
+<p>When developing pages, visibility can be set to password if you really don’t want it discovered. If it is fully published but not linked in to menu or pages, and not a sensitive development page, then it is unlikely to be seen unless you share the direct link.</p>
 </section>
-<section id="setting-publication-status-and-visibility" class="level2" data-number="10.9">
-<h2 data-number="10.9" class="anchored" data-anchor-id="setting-publication-status-and-visibility"><span class="header-section-number">10.9</span> Setting publication status and visibility</h2>
-<p><br>
-</p>
+<section id="theme-colors" class="level2" data-number="10.9">
+<h2 data-number="10.9" class="anchored" data-anchor-id="theme-colors"><span class="header-section-number">10.9</span> Theme colors</h2>
+<p>#b75229 (link color, button background)</p>
+<p>#507282 (heading color, button hover color)</p>
+<p>#231f20 (text color)</p>
 </section>
-<section id="theme-colors" class="level2" data-number="10.10">
-<h2 data-number="10.10" class="anchored" data-anchor-id="theme-colors"><span class="header-section-number">10.10</span> Theme colors</h2>
-<p><br>
-</p>
-</section>
-<section id="headings" class="level2" data-number="10.11">
-<h2 data-number="10.11" class="anchored" data-anchor-id="headings"><span class="header-section-number">10.11</span> Headings</h2>
+<section id="headings" class="level2" data-number="10.10">
+<h2 data-number="10.10" class="anchored" data-anchor-id="headings"><span class="header-section-number">10.10</span> Headings</h2>
 <p>When designating heading sizes on pages, there should only be one H1 heading per page/post as the H1 is designated for the page title. This is automatically done in the title/BCs/search bar, so when working on pages, you should only be designating H2 or smaller (and you can use multiple H2s and smaller per page/post). Here is an example:</p>
 <p><a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fhubbardbrook.org%2Fpolicy-briefings-youth-climate-forums%2F&amp;data=05%7C01%7Cmary.martin%40unh.edu%7C39ceaa7a3840437270f508da58640270%7Cd6241893512d46dc8d2bbe47e25f5666%7C0%7C0%7C637919483803002589%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=%2Bp7syQjWfX5InuJKyjdOpUFhFIwB5jlCDm35Or12UMw%3D&amp;reserved=0">https://hubbardbrook.org/policy-briefings-youth-climate-forums/</a></p>
 <ul>
@@ -369,11 +372,9 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>An article about this:</p>
 <p><a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fyoast.com%2Fhow-to-use-headings-on-your-site%2F&amp;data=05%7C01%7Cmary.martin%40unh.edu%7C39ceaa7a3840437270f508da58640270%7Cd6241893512d46dc8d2bbe47e25f5666%7C0%7C0%7C637919483803002589%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=RxAg6IQi7P5y6K24yO7oB72qQNvGs5wiMIbSPfr0I3I%3D&amp;reserved=0">https://yoast.com/how-to-use-headings-on-your-site/</a></p>
-<p><br>
-</p>
 </section>
-<section id="migrating-content" class="level2" data-number="10.12">
-<h2 data-number="10.12" class="anchored" data-anchor-id="migrating-content"><span class="header-section-number">10.12</span> Migrating content</h2>
+<section id="migrating-content-via-cutpaste" class="level2" data-number="10.11">
+<h2 data-number="10.11" class="anchored" data-anchor-id="migrating-content-via-cutpaste"><span class="header-section-number">10.11</span> Migrating content (via cut/paste)</h2>
 <p>When cutting and pasting text from documents or other websites, it is important to switch to the ‘text’ tab (not ‘visual’) in the text editor. This will paste the content in plain text, and not drag along any formatting bits from the originating document.</p>
 
 

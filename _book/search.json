@@ -404,7 +404,7 @@
     "href": "Website.html",
     "title": "10  Website",
     "section": "",
-    "text": "10.1 Content editing access\nThe Hubbard Brook website is developed in WordPress and hosted on Bluehost. Admin access is granted to the HBR IM and to the WordPress consultant. Details on the setup of the site, hosting account access, domain name management, plugin accounts and codes are all maintained off-line and can be accessed by the HBR IM as necessary.\nThis document is limited to tools and tips for maintaining the current content and for adding new content.\nInstructions for Adding Website Content\nLog in to the site at hubbardbrook.org/wp-admin. HBR IM is the admin for this site, other content creators can be added as necessary",
+    "text": "10.1 Content editing access\nThe Hubbard Brook website is developed in WordPress and hosted on Bluehost. Admin access is granted to the HBR IM and to the WordPress consultant. Details on the setup of the site, hosting account access, domain name management, plugin accounts and codes are all maintained off-line and can be accessed by the HBR IM as necessary (files are on Hubbard Brook Research Foundation ‘Hubbard Brook Website’ shared drive).\nThis document is limited to tools and tips for maintaining the current content and for adding new content.\nInstructions for Adding Website Content\nLog in to the site at hubbardbrook.org/wp-admin. HBR IM is the admin for this site, other content creators can be added as necessary",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
@@ -434,7 +434,7 @@
     "href": "Website.html#creating-new-pages",
     "title": "10  Website",
     "section": "10.4 Creating new pages",
-    "text": "10.4 Creating new pages\nPages are typically used for more static website content. Pages are typically accessed through the high level menu, or from links within existing pages\n\n\nAdd new page\nAdd title\nEnter Beaver Builder mode to construct page",
+    "text": "10.4 Creating new pages\nPages are typically used for more static website content. Pages are typically accessed through the high level menu, or from links within existing pages\nAdd new page\nAdd title\nEnter Beaver Builder mode to construct page",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
@@ -444,7 +444,7 @@
     "href": "Website.html#adding-new-people-pages",
     "title": "10  Website",
     "section": "10.5 Adding new People pages",
-    "text": "10.5 Adding new People pages",
+    "text": "10.5 Adding new People pages\nTo add profile pages to the website, request the following information. This list is included in the Welcome email template.\nThere is a dedicated page type for ‘Persons” in the left website admin dashboard. Note the tags that can be selected on the right hand side when you open the “Person’ template. information entry is through this form, with the text block at the top to contain the research interest statement. Just a little quirk….that statement must include a ‘.’\nAlso, add the following zotpress code to include that person’s HBR bibliography at the bottom of their page (where last_f is replaced with lastname_firstInitial:\n[zotpress tag=“last_f” sortby=“date” order=“desc”]\n\n*Name:\n*Institution:\n*Department:\n*Address:\nPhone:\nEmail:\nORCID:\nInstitution Homepage Link:\n*A short Research Interest Statement:\n*Please attach a photo!\nFor Grad Student profiles:\n*Advisor:\n*MS or PhD:",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
@@ -474,7 +474,7 @@
     "href": "Website.html#general-tips-on-beaver-builder-bb-layouts",
     "title": "10  Website",
     "section": "10.8 General tips on Beaver Builder (BB) layouts",
-    "text": "10.8 General tips on Beaver Builder (BB) layouts\nBB General Documentation\nhttps://docs.wpbeaverbuilder.com/beaver-builder\nBB Rows\nhttps://docs.wpbeaverbuilder.com/beaver-builder/layouts/rows/work-with-rows\nBB Modules\nhttps://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/module-overview\nBB YouTube\nhttps://www.youtube.com/c/BeaverBuilderWP/featured",
+    "text": "10.8 General tips on Beaver Builder (BB) layouts\nBB General Documentation\nhttps://docs.wpbeaverbuilder.com/beaver-builder\nBB Rows\nhttps://docs.wpbeaverbuilder.com/beaver-builder/layouts/rows/work-with-rows\nBB Modules\nhttps://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/module-overview\nBB YouTube\nhttps://www.youtube.com/c/BeaverBuilderWP/featured\n\nSetting publication status and visibility\nWhen developing pages, visibility can be set to password if you really don’t want it discovered. If it is fully published but not linked in to menu or pages, and not a sensitive development page, then it is unlikely to be seen unless you share the direct link.",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
@@ -493,8 +493,8 @@
     "objectID": "Website.html#theme-colors",
     "href": "Website.html#theme-colors",
     "title": "10  Website",
-    "section": "10.10 Theme colors",
-    "text": "10.10 Theme colors",
+    "section": "10.9 Theme colors",
+    "text": "10.9 Theme colors\n#b75229 (link color, button background)\n#507282 (heading color, button hover color)\n#231f20 (text color)",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
@@ -503,8 +503,8 @@
     "objectID": "Website.html#headings",
     "href": "Website.html#headings",
     "title": "10  Website",
-    "section": "10.11 Headings",
-    "text": "10.11 Headings\nWhen designating heading sizes on pages, there should only be one H1 heading per page/post as the H1 is designated for the page title. This is automatically done in the title/BCs/search bar, so when working on pages, you should only be designating H2 or smaller (and you can use multiple H2s and smaller per page/post). Here is an example:\nhttps://hubbardbrook.org/policy-briefings-youth-climate-forums/\n\nPolicy Briefings & Youth Climate Forums in the title/BCs/search bar gets the h1 designation\nthe Policy Briefings text and the Youth Climate Forums text in their sections gets h2 because those are the second most important headings\nother headings can get h3 or smaller depending on their importance\n\nAn article about this:\nhttps://yoast.com/how-to-use-headings-on-your-site/",
+    "section": "10.10 Headings",
+    "text": "10.10 Headings\nWhen designating heading sizes on pages, there should only be one H1 heading per page/post as the H1 is designated for the page title. This is automatically done in the title/BCs/search bar, so when working on pages, you should only be designating H2 or smaller (and you can use multiple H2s and smaller per page/post). Here is an example:\nhttps://hubbardbrook.org/policy-briefings-youth-climate-forums/\n\nPolicy Briefings & Youth Climate Forums in the title/BCs/search bar gets the h1 designation\nthe Policy Briefings text and the Youth Climate Forums text in their sections gets h2 because those are the second most important headings\nother headings can get h3 or smaller depending on their importance\n\nAn article about this:\nhttps://yoast.com/how-to-use-headings-on-your-site/",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
@@ -657,6 +657,16 @@
     "text": "15.1 Computer Resources/Facilities (UNH/ESRC)\nA section in the Data Management Plan describes the software/hardware regularly used by HBR IM. It also covers IT support and a list of contacts who have access to accounts used by IM (UNH systems, EDI, cloud-based accounts. Link\nThe Earth Systems Research Center’s (ESRC) Science Computing Facility (SCF) has a wide range of computer servers, printers, plotters, archiving systems, software, data archives, and web based data distribution systems that are integrated using several internal networks and connected to the outside world through a high speed pipe. The overall SCF administration is provided by the Research Computing Center (RCC) located in the Institute for the Study of Earth, Oceans and Space (EOS). Scientific data processing and analysis support is distributed throughout workgroups within the center with additional centralized expertise provided by ESRC’s Laboratory for Remote Sensing and Spatial Analysis. RCC’s Lenharth Data Center was upgraded in September 2011. This upgrade brought in new APC UPS units, energy efficient in-rack cooling systems, and monitoring hardware to provide more space and capability for future growth. Within this proposal, we take advantage of this existing computer infrastructure, to meet our anticipated computational needs.\nThe main ESRC servers consist of high-end, multi-processor computing systems manufactured by Dell. The Dell systems run Linux and are used for CPU intensive jobs, parallel modeling, and storage. Backups and archives are done using BackupPC a disk-to-disk based system. Most of the main servers share a gigabit (Gb) switch with the archive/backup system for high-speed communications. All of this equipment is kept within a physically secured, humidity and temperature controlled data center complete with closed circuit video surveillance and a remotely monitored security alarm system. Final data and image products are produced from several ink-jet plotters and laser printers within the department. Additionally, several CD/DVD writers are used for data distribution.\nEOS includes a CRAY XE6m-200 with 132 nodes, over 4000 processors and 160Tb of storage. In addition, our infrastructure has been strategically upgraded to provide gigabit networking to desktops.\nIndividual scientists and research groups have additional computing resources at their disposal. These include dedicated servers, individual workstations, and various peripheral devices. The group servers and individual workstations include: Linux servers and workstations, Windows workstations, Apple Macintosh desktop and laptop computers. All servers, user systems and networked peripheral devices are accessible within EOS through a gigabit ethernet network. Wireless networking is available throughout the building, including access to EduRoam. These systems also have access to both Internet 1 and Internet 2.\nESRC currently houses a 65TB+ geographically referenced data archive used for spatial data processing and analysis. This archive stored on RAID5 data disks served by a series of data servers, houses global, regional and local, Landsat, MODIS, IKONOS, Hyperion, ASTER, and SPOT satellite imagery, land cover classified products, vegetation and other indexes (EVI, LSWI, NDSI, NDVI, NDWI, LAI), aerial photography and GIS vector data layers for use by all projects within the department. Portions of these data, processed data products, and project results archive are disseminated and distributed through several dozen regularly updated and maintained ESRC operated websites. These websites are served through a variety of web servers running Apache web server software supported by other applications and libraries such as Tomcat, Web Mapping Server (WMS), OpenLayers and other geographically enhanced libraries such as GDAL, PROJ4, and GCTP.\nESRC also leverages the center’s Laboratory for Remote Sensing and Spatial Analysis, a spatial information processing, analysis and distribution research laboratory. This laboratory provides geographic information system (GIS), Web Mapping, spatial data archiving, data distribution, remote sensing, image processing, cartography, large format printing and scanning support to several ESRC and EOS research projects. Staffed by professional geo-spatial information technicians, computer programmers, and graduate and undergraduate university students, the laboratory houses a multiple seat Linux, PC, and Mac OS computer cluster supplied with a variety of open source Remote Sensing, GIS, web mapping, image processing and cartography software and ESRI ArcGIS, Leica ERDAS Imagine, and IDL/ENVI, commercial site, block, and individually licensed GIS and Image processing software.",
     "crumbs": [
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>Computer Resources</span>"
+    ]
+  },
+  {
+    "objectID": "Website.html#migrating-content-via-cutpaste",
+    "href": "Website.html#migrating-content-via-cutpaste",
+    "title": "10  Website",
+    "section": "10.11 Migrating content (via cut/paste)",
+    "text": "10.11 Migrating content (via cut/paste)\nWhen cutting and pasting text from documents or other websites, it is important to switch to the ‘text’ tab (not ‘visual’) in the text editor. This will paste the content in plain text, and not drag along any formatting bits from the originating document.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
   }
 ]

@@ -1,13 +1,10 @@
 # Website
 
-The Hubbard Brook website is developed in WordPress and hosted on Bluehost.
-Admin access is granted to the HBR IM and to the WordPress consultant.
-Details on the setup of the site, hosting account access, domain name management, plugin accounts and codes are all maintained off-line and can be accessed by the HBR IM as necessary.
+The Hubbard Brook website is developed in WordPress and hosted on Bluehost. Admin access is granted to the HBR IM and to the WordPress consultant. Details on the setup of the site, hosting account access, domain name management, plugin accounts and codes are all maintained off-line and can be accessed by the HBR IM as necessary (files are on Hubbard Brook Research Foundation 'Hubbard Brook Website' shared drive).
 
 This document is limited to tools and tips for maintaining the current content and for adding new content.
 
 Instructions for Adding Website Content
-
 
 ## Content editing access
 
@@ -49,13 +46,9 @@ NOTE: when transferring older news articles from the drupal site, use this check
 
 https://docs.google.com/spreadsheets/d/1yPRhX9DHN1tL8_EQAt9WCQloV5xwf4tymI009C2Pfic/edit?usp=sharing
 
-\
-
 ## Creating new pages
 
 Pages are typically used for more static website content. Pages are typically accessed through the high level menu, or from links within existing pages
-
-\
 
 Add new page
 
@@ -63,11 +56,42 @@ Add title
 
 Enter Beaver Builder mode to construct page
 
-\
-
 ## Adding new People pages
 
+To add profile pages to the website, request the following information. This list is included in the Welcome email template.
+
+There is a dedicated page type for 'Persons" in the left website admin dashboard. Note the tags that can be selected on the right hand side when you open the "Person' template. information entry is through this form, with the text block at the top to contain the research interest statement. Just a little quirk....that statement must include a '.'
+
+Also, add the following zotpress code to include that person's HBR bibliography at the bottom of their page (where last_f is replaced with lastname_firstInitial:
+
+\[zotpress tag="last_f" sortby="date" order="desc"\]
+
 \
+\*Name:
+
+\*Institution:
+
+\*Department:
+
+\*Address:
+
+Phone:
+
+Email:
+
+ORCID:
+
+Institution Homepage Link:
+
+\*A short Research Interest Statement:
+
+\*Please attach a photo!
+
+For Grad Student profiles:
+
+\*Advisor:
+
+\*MS or PhD:
 
 ## Adding Lessons
 
@@ -84,9 +108,6 @@ Select Templates/SavedTemplates/LessonTemplate
 Enter descriptive text in left column
 
 Enter lesson assets in right column
-
-\
-\
 
 ## Adding content to the media library
 
@@ -123,14 +144,17 @@ BB YouTube
 https://www.youtube.com/c/BeaverBuilderWP/featured
 
 \
+Setting publication status and visibility
 
-## Setting publication status and visibility
-
-\
+When developing pages, visibility can be set to password if you really don't want it discovered. If it is fully published but not linked in to menu or pages, and not a sensitive development page, then it is unlikely to be seen unless you share the direct link.
 
 ## Theme colors
 
-\
+#b75229 (link color, button background)
+
+#507282 (heading color, button hover color)
+
+#231f20 (text color)
 
 ## Headings
 
@@ -148,8 +172,6 @@ An article about this:
 
 [https://yoast.com/how-to-use-headings-on-your-site/](https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fyoast.com%2Fhow-to-use-headings-on-your-site%2F&data=05%7C01%7Cmary.martin%40unh.edu%7C39ceaa7a3840437270f508da58640270%7Cd6241893512d46dc8d2bbe47e25f5666%7C0%7C0%7C637919483803002589%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=RxAg6IQi7P5y6K24yO7oB72qQNvGs5wiMIbSPfr0I3I%3D&reserved=0)
 
-\
-
-## Migrating content
+## Migrating content (via cut/paste)
 
 When cutting and pasting text from documents or other websites, it is important to switch to the ‘text’ tab (not ‘visual’) in the text editor. This will paste the content in plain text, and not drag along any formatting bits from the originating document.
