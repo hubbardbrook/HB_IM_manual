@@ -113,15 +113,19 @@ Enter lesson assets in right column
 
 Media can be added directly to the media library by going to media on the left sidebar dashboard, or it can be added at the time of page/post editing by using the ‘add media’ button in the beaver builder text editor.
 
-**JPG are preferred format**
+### JPG are preferred format
 
 When uploading most types of graphics and photos, use the JPG/JPEG file format as it uses the least amount of space. If you take a screenshot, which creates a PNG, you can use any basic photo editor to change to a JPG.
 
-**Naming of media files**
+### Naming of media files
 
-Try to use a filename that is descriptive, but not too long. This can be super helpful when working on the site and searching for photos to use in layouts. For example, if I’m working on a page and need a photo of a person, it’s super easy to find those photos via the media library search when the filenames are something like “jane-smith-2022portrait.jpg”. 
+Try to use a filename that is descriptive, but not too long. This can be super helpful when working on the site and searching for photos to use in layouts. For example, if I’m working on a page and need a photo of a person, it’s super easy to find those photos via the media library search when the filenames are something like “jane-smith-2022portrait.jpg”, and not ‘screenshot-20260320.jpg’.
 
-**Uploading PDFs for general use (not using PDF viewer)**
+### Duplicate images
+
+It is easy to get image-creep when you fine tune images within the media folder. It’s fine to do that, but when you’ve settled on the image version to use, please go back and delete the copies.
+
+### Uploading PDFs for general use (not using PDF viewer)\*\*
 
 PDFs uploaded via ‘media’ button in the beaver builder text block will display image of pdf as a pdf viewer. If you just want a link to the pdf to to the Wordpress Dashboard, go to the Media menu item, select ‘Add New’ and upload. Then in text block, just add it as a link (do not use media button).
 
