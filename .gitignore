@@ -53,6 +53,6 @@ rsconnect/
 
 # R Project
 *.Rproj
+.positai
 
-# Mac files
-.DS_Store
+**/*.quarto_ipynb

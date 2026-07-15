@@ -64,7 +64,7 @@
     "href": "intro.html#im-softwarehardware",
     "title": "1  Data Management Plan",
     "section": "1.6 IM Software/Hardware",
-    "text": "1.6 IM Software/Hardware\nTable 1 outlines software in use by HBR-IM to manage data package development and the Hubbard Brook website.\nTable 1. Features of HBR Information Management System\n\n\n\nFeature\nDetails, software, resources\n\n\n\n\nWebsite: https://hubbardbrook.org\nWordPress, html, css, php, xslt, javascript, apache, piwigo\n\n\nBibliography\nZotero, Zotpress wordpress plugin\n\n\nPhoto Gallery\nmigrating to SmugMug in early 2026\n\n\nData Catalog\nEDI data repository, local WordPress gateway to EDI HBR data, EDIutils R\n\n\nMetadata\nezEML, PostgreSQL, EML R package, EML2.1\n\n\nComputer Hardware\nDell Poweredge R510, desktop and laptop linux systems.\n\n\nBackup\nBackupPC, rsnapshot, daily, weekly and monthly backups, on and off-site\n\n\nData management\nR, LibreOffice, QGIS, MySQL, PostgreSQL, git",
+    "text": "1.6 IM Software/Hardware\nTable 1 outlines software in use by HBR-IM to manage data package development and the Hubbard Brook website.\nTable 1. Features of HBR Information Management System\nFeature | Details, software, resources |\n&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD |————————————-|———————————–| | Website: https://hubbardbrook.org | WordPress, html, css, php, xslt, javascript, apache, piwigo | | Bibliography | Zotero, Zotpress wordpress plugin | | Photo Gallery | migrating to SmugMug in early 2026 | ======= |—-|—-| | Website: https://hubbardbrook.org | WordPress, html, css, php, xslt, javascript, apache, piwigo | | Bibliography | Zotero, Zotpress wordpress plugin | &gt;&gt;&gt;&gt;&gt;&gt;&gt; 3d52026 (updating website chapter2) | Data Catalog | EDI data repository, local WordPress gateway to EDI HBR data, EDIutils R | | Metadata | ezEML, PostgreSQL, EML R package, EML2.1 | | Computer Hardware | Dell Poweredge R510, desktop and laptop linux systems. | | Backup | BackupPC, rsnapshot, daily, weekly and monthly backups, on and off-site | | Data management | R, LibreOffice, QGIS, MySQL, PostgreSQL, git |",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Management Plan</span>"
     ]
@@ -84,7 +84,7 @@
     "href": "intro.html#account-access",
     "title": "1  Data Management Plan",
     "section": "1.8 Account access",
-    "text": "1.8 Account access\nA number of accounts require access for HBR Information Management. In some cases, access can be granted through the UNH Research Computing Center (RCC), and in other cloud-based accounts the IM has designated a co-administrator individual (currently a UNH department colleague on the HB Science Coord Com] .\n\nIM desktop and server [IM/RChow do C]\nUNH HB sharepoint [IM/UNHcoAdmin]\nZotero [IM/UNHcoAdmin]\nDatabases [IM/RCC]\nPiwigo [IM/RCC]\nEDI/ezEML [IM/EDI]\nJotform [IM/CaryIT]\nBluehost [IM/P6288media]\nGitHub [IM UNHcoAdmin]",
+    "text": "1.8 Account access\nA number of accounts require access for HBR Information Management. In some cases, access can be granted through the UNH Research Computing Center (RCC), and in other cloud-based accounts the IM has designated a co-administrator individual (currently a UNH department colleague on the HB Science Coord Com] .\n\nIM desktop and server [IM/RCC]\nUNH HB sharepoint [IM/IMcoAdmin]\nZotero [IM/IMcoAdmin]\nDatabases [IM/RCC]\nPiwigo [IM/RCC]\nEDI/ezEML [IM/EDI]\nJotform [IM/CaryIT]\nBluehost [IM/Post at 6288media]\nGitHub [IM/IMcoAdmin]\nhubbardbrook gmail [IM/IMcoAdmin]",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Management Plan</span>"
     ]
@@ -94,7 +94,7 @@
     "href": "intro.html#website",
     "title": "1  Data Management Plan",
     "section": "1.9 Website",
-    "text": "1.9 Website\nThe HBR website (https://hubbardbrook.org) is the primary means by which HBR information is disseminated, with additional non-digital data (charts, maps, photographs) made available upon request. HBR completed a website migration from html/php files to a content management system (CMS; Drupal) in 2017. In 2022 the website was further migrated to WordPress. With cloud-based WordPress hosting, it becomes simpler to transfer website management to a different IM and/or institution. Website content is managed by the HBR IM and the Hubbard Brook Research Foundation. The website provides access to data, publications, personnel pages, education and outreach material, and a photo gallery. A recent website content addition is the Hubbard Brook Research Synthesis – an online ‘book’ consisting of 19 chapters to date, covering a wide range of long-term research. With content editors assigned to each chapter, this is meant to be a series of dynamic pages, which reflect the full history of Hubbard Brook research in each topic area (https://hubbardbrook.org/online-book). Chapters in the online book contain numerous data figures, many of which have been restructured to read data directly from the most recent data revisions in the EDI repository.\nSee Hubbard Brook Ecosystem Study Website Management Guide for website configuration, access to servers and filesystems, recommended practices for site content, etc.",
+    "text": "1.9 Website\nThe HBR website (https://hubbardbrook.org) is the primary means by which HBR information is disseminated, with additional non-digital data (charts, maps, photographs) made available upon request. HBR completed a website migration from html/php files to a content management system (CMS; Drupal) in 2017. In 2022 the website was further migrated to WordPress. With cloud-based WordPress hosting, it becomes simpler to transfer website management to a different IM and/or institution. Website content is managed by the HBR IM and the Hubbard Brook Research Foundation. The website provides access to data, publications, personnel pages, education and outreach material, and a photo gallery. A recent website content addition is the Hubbard Brook Research Synthesis – an online ‘book’ consisting of 19 chapters to date, covering a wide range of long-term research. With content editors assigned to each chapter, this is meant to be a series of dynamic pages, which reflect the full history of Hubbard Brook research in each topic area https://hbr-lter.github.io/synthesisbook/. Chapters in the online book contain numerous data figures, many of which have been restructured to read data directly from the most recent data revisions in the EDI repository.\nSee Hubbard Brook Ecosystem Study Website Management Guide for website configuration, access to servers and filesystems, recommended practices for site content, etc.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Management Plan</span>"
     ]
@@ -404,7 +404,7 @@
     "href": "Website.html",
     "title": "10  Website",
     "section": "",
-    "text": "10.1 Content editing access\nThe Hubbard Brook website is developed in WordPress and hosted on Bluehost. Admin access is granted to the HBR IM and to the WordPress consultant. Details on the setup of the site, hosting account access, domain name management, plugin accounts and codes are all maintained off-line and can be accessed by the HBR IM as necessary (files are on Hubbard Brook Research Foundation ‘Hubbard Brook Website’ shared drive).\nThis document is limited to tools and tips for maintaining the current content and for adding new content.\nInstructions for Adding Website Content\nLog in to the site at hubbardbrook.org/wp-admin. HBR IM is the admin for this site, other content creators can be added as necessary",
+    "text": "10.1 Content editing access\nThe Hubbard Brook website is developed in WordPress and hosted on Bluehost. Admin access is granted to the HBR IM and to the WordPress consultant. Details on the setup of the site, hosting account access, domain name management, plugin accounts and codes are all maintained off-line and can be accessed by the HBR IM as necessary (files are on Hubbard Brook Research Foundation ‘Hubbard Brook Website’ shared drive).\nThis document is limited to tools and tips for maintaining the current content and for adding new content.\nInstructions for Adding Website Content\nAdmin and contributors have login accounts for the website. HBR IM is the admin for this site and content creators are added as necessary.",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
@@ -414,7 +414,7 @@
     "href": "Website.html#adding-feature-stories",
     "title": "10  Website",
     "section": "10.2 Adding Feature Stories",
-    "text": "10.2 Adding Feature Stories\nFeature stories are added as a custom post type - locate ‘Stories’ in the left sidebar, and ‘add new’.  \n\nIn the add new window, enter in a title for the story. \nAlso enter a featured image. This can be an existing element in the media library or new image that you upload. See notes on general tips for adding media. Since multiple stories are displayed in a ‘feed’, this will look best if you use an image with the general aspect of 2wide x 1 high.\n\n\nOnce the title and featured image are entered, select the ‘Beaver Builder’ tab. Then see section on general instructions for Beaver Builder layouts.",
+    "text": "10.2 Adding Feature Stories\nFeature stories are added as a custom post type - locate ‘Stories’ in the left sidebar, and ‘add new’.  \n\n\n\nBluehost website dashboard\n\n\nIn the add new window, enter in a title for the story. \n\n\n\nAdd new feature story title\n\n\nAlso enter a featured image. This can be an existing element in the media library or new image that you upload. See notes on general tips for adding media. Since multiple stories are displayed in a ‘feed’, this will look best if you use an image with the general aspect of 2wide x 1 high.\n\n\n\nAdd new feature story featured image\n\n\nOnce the title and featured image are entered, select the ‘Beaver Builder’ tab. Then see section on general instructions for Beaver Builder layouts.",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
@@ -424,7 +424,7 @@
     "href": "Website.html#adding-news-posts",
     "title": "10  Website",
     "section": "10.3 Adding News posts",
-    "text": "10.3 Adding News posts\nNews posts are usually pretty straight forward and simple format. Sometimes just pointing to something in external media. These do not use Beaver Builder, just the regular text editor. If the item is more involved and media-rich, consider making this a ‘Feature Story’.\n\n\n\nAdd new post.\nAdd title\nAdd featured image  - see image instructions\nEnter news article in the text editor, not beaver builder. \n\n\n\nNOTE: when transferring older news articles from the drupal site, use this checklist to indicate status  (y=now on wordpress; changed to a feature story; save archive, but do not put on wp site; etc)\nhttps://docs.google.com/spreadsheets/d/1yPRhX9DHN1tL8_EQAt9WCQloV5xwf4tymI009C2Pfic/edit?usp=sharing",
+    "text": "10.3 Adding News posts\nNews posts are usually pretty straight forward and simple format. Sometimes just pointing to something in external media. These do not use Beaver Builder, just the regular text editor. If the item is more involved and media-rich, consider making this a ‘Feature Story’.\n\nAdd new post.\nAdd title\nAdd featured image  - [see image instructions]\nAdd featured image  - see image instructions\nEnter news article in the text editor, not beaver builder. \n\nNOTE: when transferring older news articles from the drupal site, use this checklist to indicate status  (y=now on wordpress; changed to a feature story; save archive, but do not put on wp site; etc)\nhttps://docs.google.com/spreadsheets/d/1yPRhX9DHN1tL8_EQAt9WCQloV5xwf4tymI009C2Pfic/edit?usp=sharing",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
@@ -434,7 +434,7 @@
     "href": "Website.html#creating-new-pages",
     "title": "10  Website",
     "section": "10.4 Creating new pages",
-    "text": "10.4 Creating new pages\nPages are typically used for more static website content. Pages are typically accessed through the high level menu, or from links within existing pages\nAdd new page\nAdd title\nEnter Beaver Builder mode to construct page",
+    "text": "10.4 Creating new pages\nPages are typically used for more static website content. Pages are typically accessed through the high level menu, or from links within existing pages\n\nAdd new page\nAdd title\nEnter Beaver Builder mode to construct page",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
@@ -454,7 +454,7 @@
     "href": "Website.html#adding-lessons",
     "title": "10  Website",
     "section": "10.6 Adding Lessons",
-    "text": "10.6 Adding Lessons\nAdd new page\nSet page type to k-12Lesson\nSet parent to k-12 Education Program\nEnter Beaver Builder\nSelect Templates/SavedTemplates/LessonTemplate\nEnter descriptive text in left column\nEnter lesson assets in right column",
+    "text": "10.6 Adding Lessons\n\nAdd new page\nSet page type to k-12Lesson\nSet parent to k-12 Education Program\nEnter Beaver Builder\nSelect Templates/SavedTemplates/LessonTemplate\nEnter descriptive text in left column\nEnter lesson assets in right column",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
@@ -474,7 +474,17 @@
     "href": "Website.html#general-tips-on-beaver-builder-bb-layouts",
     "title": "10  Website",
     "section": "10.8 General tips on Beaver Builder (BB) layouts",
-    "text": "10.8 General tips on Beaver Builder (BB) layouts\nBB General Documentation\nhttps://docs.wpbeaverbuilder.com/beaver-builder\nBB Rows\nhttps://docs.wpbeaverbuilder.com/beaver-builder/layouts/rows/work-with-rows\nBB Modules\nhttps://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/module-overview\nBB YouTube\nhttps://www.youtube.com/c/BeaverBuilderWP/featured\n\nSetting publication status and visibility\nWhen developing pages, visibility can be set to password if you really don’t want it discovered. If it is fully published but not linked in to menu or pages, and not a sensitive development page, then it is unlikely to be seen unless you share the direct link.",
+    "text": "10.8 General tips on Beaver Builder (BB) layouts\nBB General Documentation\nhttps://docs.wpbeaverbuilder.com/beaver-builder\nBB Rows\nhttps://docs.wpbeaverbuilder.com/beaver-builder/layouts/rows/work-with-rows\nBB Modules\nhttps://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/module-overview\nBB YouTube\nhttps://www.youtube.com/c/BeaverBuilderWP/featured",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
+    ]
+  },
+  {
+    "objectID": "Website.html#setting-publication-status-and-visibility",
+    "href": "Website.html#setting-publication-status-and-visibility",
+    "title": "10  Website",
+    "section": "10.9 Setting publication status and visibility",
+    "text": "10.9 Setting publication status and visibility\nWhen developing pages, visibility can be set to password if you really don’t want it discovered. If it is fully published but not linked in to menu or pages, and not a sensitive development page, then it is unlikely to be seen unless you share the direct link.",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
@@ -483,8 +493,8 @@
     "objectID": "Website.html#theme-colors",
     "href": "Website.html#theme-colors",
     "title": "10  Website",
-    "section": "10.9 Theme colors",
-    "text": "10.9 Theme colors\n#b75229 (link color, button background)\n#507282 (heading color, button hover color)\n#231f20 (text color)",
+    "section": "10.10 Theme colors",
+    "text": "10.10 Theme colors\n\n#b75229 (link color, button background)\n#507282 (heading color, button hover color)\n#231f20 (text color)",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
@@ -493,8 +503,8 @@
     "objectID": "Website.html#headings",
     "href": "Website.html#headings",
     "title": "10  Website",
-    "section": "10.10 Headings",
-    "text": "10.10 Headings\nWhen designating heading sizes on pages, there should only be one H1 heading per page/post as the H1 is designated for the page title. This is automatically done in the title/BCs/search bar, so when working on pages, you should only be designating H2 or smaller (and you can use multiple H2s and smaller per page/post). Here is an example:\nhttps://hubbardbrook.org/policy-briefings-youth-climate-forums/\n\nPolicy Briefings & Youth Climate Forums in the title/BCs/search bar gets the h1 designation\nthe Policy Briefings text and the Youth Climate Forums text in their sections gets h2 because those are the second most important headings\nother headings can get h3 or smaller depending on their importance\n\nAn article about this:\nhttps://yoast.com/how-to-use-headings-on-your-site/",
+    "section": "10.11 Headings",
+    "text": "10.11 Headings\nWhen designating heading sizes on pages, there should only be one H1 heading per page/post as the H1 is designated for the page title. This is automatically done in the title/BCs/search bar, so when working on pages, you should only be designating H2 or smaller (and you can use multiple H2s and smaller per page/post). Here is an example:\nhttps://hubbardbrook.org/policy-briefings-youth-climate-forums/\n\nPolicy Briefings & Youth Climate Forums in the title/BCs/search bar gets the h1 designation\nThe Policy Briefings text and the Youth Climate Forums text in their sections gets h2 because those are the second most important headings\nOther headings can get h3 or smaller depending on their importance\n\nAn article about this:\nhttps://yoast.com/how-to-use-headings-on-your-site/",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
@@ -503,8 +513,8 @@
     "objectID": "Website.html#migrating-content-via-cutpaste",
     "href": "Website.html#migrating-content-via-cutpaste",
     "title": "10  Website",
-    "section": "10.11 Migrating content (via cut/paste)",
-    "text": "10.11 Migrating content (via cut/paste)\nWhen cutting and pasting text from documents or other websites, it is important to switch to the ‘text’ tab (not ‘visual’) in the text editor. This will paste the content in plain text, and not drag along any formatting bits from the originating document.",
+    "section": "10.12 Migrating content (via cut/paste)",
+    "text": "10.12 Migrating content (via cut/paste)\nWhen cutting and pasting text from documents or other websites, it is important to switch to the ‘text’ tab (not ‘visual’) in the text editor. This will paste the content in plain text, and not drag along any formatting bits from the originating document.",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Website</span>"
     ]
@@ -544,7 +554,7 @@
     "href": "OnlineBook.html",
     "title": "12  Online Book",
     "section": "",
-    "text": "12.1 Managing chapter content\nThis document is managed elsewhere - migration to this quarto site is pending\nDescribe how the chapters are configured in Wordpress, how updates are made.",
+    "text": "12.1 Managing chapter content\nThis document has been migrated to Quarto markdown and is hosted on github as https://hbr-lter.github.io/synthesisbook/\nThe book is developed as individual thematic chapters in an R studio project and pushed to the HBR-LTER github organization site as https://github.com/HBR-LTER/synthesisbook",
     "crumbs": [
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Online Book</span>"
     ]
@@ -554,7 +564,27 @@
     "href": "OnlineBook.html#automated-graphs",
     "title": "12  Online Book",
     "section": "12.2 Automated graphs",
-    "text": "12.2 Automated graphs\nDescribe how this is done and point to the repository where the graphs live and are linked to the book",
+    "text": "12.2 Automated graphs\nThe automated graphs are developed in an rstudio project and pushed to the HBR-LTER github organization site as https://github.com/HBR-LTER/OnlineBookGraphs",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Online Book</span>"
+    ]
+  },
+  {
+    "objectID": "OnlineBook.html#instructions-to-contributors",
+    "href": "OnlineBook.html#instructions-to-contributors",
+    "title": "12  Online Book",
+    "section": "12.3 Instructions to contributors",
+    "text": "12.3 Instructions to contributors\n\n12.3.1 New chapter\nNew chapters can be submitted to the IM as markdown, doc, or plain text. Figures should be saved as individual files and named in a descriptive manner. Not this: Figure6.jpg, but this: ‘BeechBarkDisease_SeverityMap.jpg’\n\n\n12.3.2 Edits to chapter\nIf the edit is just an update, provide the paragraph as add or replace, and indicate where in the chapter this is located. Also include figures as described above, and new references including DOI",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Online Book</span>"
+    ]
+  },
+  {
+    "objectID": "OnlineBook.html#markdown-tips",
+    "href": "OnlineBook.html#markdown-tips",
+    "title": "12  Online Book",
+    "section": "12.4 Markdown tips",
+    "text": "12.4 Markdown tips\n\n12.4.1 See examples.qmd (in github) for instructions on:\n\nembedding figures (centered and float left/right)\nembedding audio\nembedding video\ngreating tables",
     "crumbs": [
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Online Book</span>"
     ]

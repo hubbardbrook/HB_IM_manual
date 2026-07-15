@@ -1,11 +1,32 @@
 # Online Book
 
-This document is managed elsewhere - migration to this quarto site is pending
+This document has been migrated to Quarto markdown and is hosted on github as <https://hbr-lter.github.io/synthesisbook/>
 
 ## Managing chapter content
 
-Describe how the chapters are configured in Wordpress, how updates are made.
+The book is developed as individual thematic chapters in an R studio project and pushed to the HBR-LTER github organization site as <https://github.com/HBR-LTER/synthesisbook>
 
 ## Automated graphs
 
-Describe how this is done and point to the repository where the graphs live and are linked to the book
+The automated graphs are developed in an rstudio project and pushed to the HBR-LTER github organization site as <https://github.com/HBR-LTER/OnlineBookGraphs>
+
+## Instructions to contributors
+
+### New chapter
+
+New chapters can be submitted to the IM as markdown, doc, or plain text. Figures should be saved as individual files and named in a descriptive manner. Not this: Figure6.jpg, but this: 'BeechBarkDisease_SeverityMap.jpg'
+
+### Edits to chapter
+
+If the edit is just an update, provide the paragraph as add or replace, and indicate where in the chapter this is located. Also include figures as described above, and new references including DOI
+
+## Markdown tips
+
+### See examples.qmd (in github) for instructions on:
+
+* embedding figures (centered and float left/right)
+* embedding audio
+* embedding video
+* greating tables
+
+ 

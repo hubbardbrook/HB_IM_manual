@@ -4,7 +4,6 @@ This collection of documentation contains details on Information Management for 
 
 In addition to an overview of information management at HBR, we include supplemental chapters and associated documents covering more dynamic details such as inventory/status of data packages, current IM projects and timelines, a guide to the operation of the HBR website, and a step-by-step guide to the development of HBR data packages and associated local data catalog. This document is revised periodically to reflect changes in IM assets, status, workflows, etc.
 
-
 Throughout these pages you will encounter a number of acronyms. They are typically identified before first use within a chapter...but just in case:
 
 - EDI: Environmental Data Initiative\
@@ -14,10 +13,9 @@ Throughout these pages you will encounter a number of acronyms. They are typical
 - HBR: Acronym for the Hubbard Brook LTER\
 - LTER: Long-term Ecological Research\
 - LNO: LTER Network Office\
-- PASTA+:\ The software that runs the repository
+- PASTA+: The software that runs the repository
 - RAC: Research Advisory Committee\
 - RCC: Research Computing Center\
 - USFS: USDA Forest Service\
 - UNH: University of New Hampshire\
 - WMNF: White Mountain National Forest\
-

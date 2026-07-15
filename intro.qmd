@@ -75,10 +75,16 @@ Table 1 outlines software in use by HBR-IM to manage data package development an
 Table 1. Features of HBR Information Management System
 
 | **Feature** | **Details, software, resources** |
+<<<<<<< HEAD
 |-------------------------------------|-----------------------------------|
 | Website: [https://hubbardbrook.org](https://hubbardbrook.org/) | WordPress, html, css, php, xslt, javascript, apache, piwigo |
 | Bibliography | Zotero, Zotpress wordpress plugin |
 | Photo Gallery | migrating to SmugMug in early 2026 |
+=======
+|----|----|
+| Website: [https://hubbardbrook.org](https://hubbardbrook.org/) | WordPress, html, css, php, xslt, javascript, apache, piwigo |
+| Bibliography | Zotero, Zotpress wordpress plugin |
+>>>>>>> 3d52026 (updating website chapter2)
 | Data Catalog | EDI data repository, local WordPress gateway to EDI HBR data, EDIutils R |
 | Metadata | ezEML, PostgreSQL, EML R package, EML2.1 |
 | Computer Hardware | Dell Poweredge R510, desktop and laptop linux systems. |
@@ -93,19 +99,20 @@ IT support for the UNH IM team is available through the UNH Research Computer Ce
 
 A number of accounts require access for HBR Information Management. In some cases, access can be granted through the UNH Research Computing Center (RCC), and in other cloud-based accounts the IM has designated a co-administrator individual (currently a UNH department colleague on the HB Science Coord Com\] .
 
--   IM desktop and server \[IM/RChow do C\]
--   UNH HB sharepoint \[IM/UNHcoAdmin\]
--   Zotero \[IM/UNHcoAdmin\]
--   Databases \[IM/RCC\]
--   Piwigo \[IM/RCC\]
--   EDI/ezEML \[IM/EDI\]
--   Jotform \[IM/CaryIT\]
--   Bluehost \[IM/P6288media\]
--   GitHub \[IM UNHcoAdmin\]
+- IM desktop and server \[IM/RCC\]
+- UNH HB sharepoint \[IM/IMcoAdmin\]
+- Zotero \[IM/IMcoAdmin\]
+- Databases \[IM/RCC\]
+- Piwigo \[IM/RCC\]
+- EDI/ezEML \[IM/EDI\]
+- Jotform \[IM/CaryIT\]
+- Bluehost \[IM/Post at 6288media\]
+- GitHub \[IM/IMcoAdmin\]
+- hubbardbrook gmail \[IM/IMcoAdmin\]
 
 ## Website {#website}
 
-The HBR website ([https://hubbardbrook.org](https://hubbardbrook.org/)) is the primary means by which HBR information is disseminated, with additional non-digital data (charts, maps, photographs) made available upon request. HBR completed a website migration from html/php files to a content management system (CMS; Drupal) in 2017. In 2022 the website was further migrated to WordPress. With cloud-based WordPress hosting, it becomes simpler to transfer website management to a different IM and/or institution. Website content is managed by the HBR IM and the Hubbard Brook Research Foundation. The website provides access to data, publications, personnel pages, education and outreach material, and a photo gallery. A recent website content addition is the Hubbard Brook Research Synthesis -- an online 'book' consisting of 19 chapters to date, covering a wide range of long-term research. With content editors assigned to each chapter, this is meant to be a series of dynamic pages, which reflect the full history of Hubbard Brook research in each topic area (<https://hubbardbrook.org/online-book>). Chapters in the online book contain numerous data figures, many of which have been restructured to read data directly from the most recent data revisions in the EDI repository.
+The HBR website ([https://hubbardbrook.org](https://hubbardbrook.org/)) is the primary means by which HBR information is disseminated, with additional non-digital data (charts, maps, photographs) made available upon request. HBR completed a website migration from html/php files to a content management system (CMS; Drupal) in 2017. In 2022 the website was further migrated to WordPress. With cloud-based WordPress hosting, it becomes simpler to transfer website management to a different IM and/or institution. Website content is managed by the HBR IM and the Hubbard Brook Research Foundation. The website provides access to data, publications, personnel pages, education and outreach material, and a photo gallery. A recent website content addition is the Hubbard Brook Research Synthesis -- an online 'book' consisting of 19 chapters to date, covering a wide range of long-term research. With content editors assigned to each chapter, this is meant to be a series of dynamic pages, which reflect the full history of Hubbard Brook research in each topic area [https://hbr-lter.github.io/synthesisbook/](https://hbr-lter.github.io/synthesisbook/). Chapters in the online book contain numerous data figures, many of which have been restructured to read data directly from the most recent data revisions in the EDI repository.
 
 See ***Hubbard Brook Ecosystem Study Website Management Guide*** for website configuration, access to servers and filesystems, recommended practices for site content, etc.
 
