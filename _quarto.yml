@@ -1,7 +1,8 @@
 project:
   type: book
   output-dir: docs
-
+  resources:
+    - files/
 book:
   title: "Hubbard Brook Information Management Documents"
   chapters:
